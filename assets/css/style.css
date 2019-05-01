@@ -73,6 +73,40 @@ p {
 }
 
 
+/*----------MEDIA QUERIES----------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .font-script {
+        /*font-size: 1.5em;*/
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        /*font-size: 3em;*/
+    }
+}
+
+@media (min-width: 992px) {
+    .font-script {
+        /*font-size: 2em;*/
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        /*font-size: 3.5em;*/
+    }
+}
+
+
+
+/*----------TESTING----------*/
+
+.test {
+    border: solid thin red;
+}
+
 
 
 

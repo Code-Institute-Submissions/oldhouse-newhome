@@ -1,20 +1,78 @@
-/*--FONT--*/
+/*---------------FONT---------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Dosis|Gravitas+One|Over+the+Rainbow|Special+Elite');
 
-
 body {
-   font-family: 'Special Elite', cursive; 
+    font-family: 'Special Elite', cursive;
+    color: #202020
 }
 
-h1, h2 {
-   font-family: 'Gravitas One', cursive; 
+h1,
+h2 {
+    font-family: 'Gravitas One', cursive;
 }
 
-h3, .tagline {
-font-family: 'Over the Rainbow', cursive;    
+h3,
+.tagline {
+    font-family: 'Over the Rainbow', cursive;
 }
 
 p {
-  font-family: 'Dosis', sans-serif;  
+    font-family: 'Dosis', sans-serif;
 }
+
+.color--light {
+    color: #fff
+}
+
+/*---------------MARGIN PADDING---------------*/
+
+.row,
+.comtainer {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---------------BACKGROUND---------------*/
+
+.background--ivy {}
+
+.background--light {
+    background-color: #fff
+}
+
+/*linear-gradient code from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
+.background--stone {
+    background-image: linear-gradient(to right, #f4f4f4, #e1e1e1);
+}
+
+
+/*linear-gradient code from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
+.background--dark {
+    background-image: linear-gradient(to right, #313149, #020202);
+}
+
+
+
+/*---------------DIVIDER---------------*/
+
+.divider {
+    width: 150px;
+    height: 1px;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

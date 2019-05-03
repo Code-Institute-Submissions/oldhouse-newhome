@@ -256,7 +256,7 @@
                             <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn button--style">review</button>
+                            <button type="button" class="btn button-style" data-toggle="modal" data-target="#r-worktop">review</button>
                         </div>
                     </div>
                     <!--CARD2-->
@@ -489,7 +489,7 @@
                         <form>
                             <div class="form-group">
                                 <label for="name1">name</label>
-                                <input type="text background--stone" class="form-control" id="name1 required">
+                                <input type="text background--stone" class="form-control" id="name1" required">
                             </div>
                             <div class="form-group">
                                 <label for="email1">email</label>
@@ -517,6 +517,44 @@
     </footer>
 
     <!--MODAL-->
+    <div class="modal fade" id="r-worktop" tabindex="-1" role="dialog" aria-labelledby="reviewWorktop" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-modalh5" id="r-Worktop">Silestone Worktop</h5>
+                    
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body background--stone">
+                    <p class="content-center"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                    <!-- Progress -->
+                    <div class="progress style-progress">
+                        <div class="progress-bar style-bar" role="progressbar" style="width: 100%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="5">Look & Feel</div>
+                    </div>
+                    <div class="progress style-progress">
+                        <div class="progress-bar style-bar" role="progressbar" style="width: 80%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="5">Ease Of Use</div>
+                    </div>
+                    <div class="progress style-progress">
+                        <div class="progress-bar style-bar" role="progressbar" style="width: 80%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="5">Function</div>
+                    </div>
+                    <div class="progress style-progress">
+                        <div class="progress-bar style-bar" role="progressbar" style="width: 60%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="5">Value</div>
+                    </div>
+                    <!-- /Progress -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae aspernatur nemo, sunt consequatur quod doloribus repellendus deserunt veniam quaerat, quis, obcaecati incidunt dolores consequuntur animi, dignissimos iusto vel laborum
+                        unde.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn button-style" data-dismiss="modal">close</button>
+                    <button type="button" class="btn button-style">source</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal -->
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>

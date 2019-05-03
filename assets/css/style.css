@@ -132,13 +132,18 @@ padding: 0 !important;
     /*width: 100vw;*/
 }
 
-.card-header,.card-footer {
+.card-header,.card-footer,.card-body {
     background-color: #fff;
     border-bottom: none;
     border-top: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
     
-.card-
     
+.card {
+    border-color: red;
 }
 
 /*---------------DIVIDER---------------*/

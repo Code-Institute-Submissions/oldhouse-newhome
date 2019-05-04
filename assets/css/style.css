@@ -18,7 +18,9 @@ h3,
     font-family: 'Over the Rainbow', cursive;
 }
 
-p, dt, dd {
+p,
+dt,
+dd {
     font-family: 'Dosis', sans-serif;
 }
 
@@ -40,9 +42,7 @@ p, dt, dd {
     color: #8e90a5;
 }
 
-.font--y {
-    
-}
+.font--y {}
 
 
 
@@ -56,7 +56,7 @@ p, dt, dd {
     color: #fff;
     padding: 6px;
     border-radius: 10px;
-    
+
 }
 
 .button-style--light {
@@ -66,7 +66,7 @@ p, dt, dd {
     color: #202020;
     padding: 6px;
     border-radius: 10px;
-    
+
 }
 
 
@@ -76,7 +76,6 @@ padding: 0;
 }
 /*margin padding reset code from CSStricks "https://css-tricks.com/reset-all-margins-padding/" */
 
-
 /*.row,
 .comtainer {
     margin: 0;
@@ -84,13 +83,13 @@ padding: 0;
 }*/
 
 .margin-padding--0 {
-margin: 0 !important;
-padding: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .mp--0 {
-margin: 0 !important;
-padding: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 
@@ -101,25 +100,39 @@ padding: 0 !important;
 }
 
 .background--ivy {
-    /*width: 100vw;*/
+    min-height: 50vh;
+    background: url("../images/ivy3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+        text-align: right;
+        color: #fff;
+
 }
 
 .background--light {
     background-color: #fff;
-    /*width: 100vw;*/
 }
 
 /*linear-gradient code from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
+
 .background--stone {
     background-image: linear-gradient(to right, #f4f4f4, #e1e1e1);
-    /*width: 100vw;*/
 }
 
 
 /*linear-gradient code from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
+
 .background--dark {
     background-image: linear-gradient(to right, #313149, #020202);
-    /*width: 100vw;*/
 }
 
 .background--stonebox {
@@ -129,25 +142,25 @@ padding: 0 !important;
     margin: 10px;
     border: solid thin #e1e1e1;
     padding: 5px;
-    /*width: 100vw;*/
 }
 
-.card-header,.card-footer,.card-body {
+.card-header,
+.card-footer,
+.card-body {
     background-color: #fff;
     border-bottom: none;
     border-top: none;
     margin: 0;
     padding: 0;
     text-align: center;
-    }
-    
-    
+}
+
+
 .card {
     border-color: red;
 }
 
 /*---------------DIVIDER---------------*/
-
 
 .divider {
     width: 200px;
@@ -213,13 +226,3 @@ padding: 0 !important;
 .testb {
     border: solid thin blue;
 }
-
-
-
-
-
-
-
-
-
-

@@ -20,7 +20,7 @@ h3,
 
 p,
 dt,
-dd {
+dd, nav {
     font-family: 'Dosis', sans-serif;
 }
 
@@ -99,6 +99,47 @@ padding: 0;
     width: 100vw;
 }
 
+/*.navbar {
+
+    background: 0;
+
+    border-color: transparent;
+}
+
+/*.navbar .navbar-collapse {
+
+    text-align: right;
+
+    border-top: 1px solid transparent;
+
+    overflow-x: hidden;
+
+}
+
+
+
+.navbar-nav li a {
+
+    padding: 20px 25px 15px 25px;
+
+    color: transparent;
+
+}
+
+
+
+.navbar-fixed-top .container {
+
+    text-align: right;
+
+    margin-right: 1%;
+
+    margin-top: 1%;
+
+}*/
+
+
+
 .background--ivy {
     min-height: 50vh;
     background: url("../images/ivy3.jpg");
@@ -115,6 +156,7 @@ padding: 0;
     
         text-align: right;
         color: #fff;
+    
 
 }
 
@@ -226,3 +268,18 @@ padding: 0;
 .testb {
     border: solid thin blue;
 }
+
+
+/*----------TESTING----------*/
+
+#abc {
+    position: relative;
+}
+
+#xyz {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  
+  background-color: rgba(0,0,0,0.3);
+ } 

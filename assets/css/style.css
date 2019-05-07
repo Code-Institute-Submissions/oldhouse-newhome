@@ -111,9 +111,16 @@ padding: 0;
 .mp--0 {
     margin: 0 !important;
     padding: 0 !important;
+    }
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-
+h3 {
+    margin-top: 20px;
+}
 /*---------------BACKGROUND---------------*/
 
 .wrap {

@@ -20,7 +20,8 @@ h3,
 
 p,
 dt,
-dd, nav {
+dd,
+nav {
     font-family: 'Dosis', sans-serif;
 }
 
@@ -47,28 +48,48 @@ dd, nav {
 
 
 
-/*---------------MARGIN PADDING---------------*/
+/*---------------BUTTON---------------*/
 
 .button-style {
-    border: none;
     margin-bottom: 10px;
-    background-color: #202020;
+    /*background-color: #202020;*/
     color: #fff;
     padding: 6px;
     border-radius: 10px;
+    font-size: .9em;
+    border: 3px double white;
+    background-image: linear-gradient(#313149, #020202);
 
 }
 
 .button-style--light {
-    border: none;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-image: linear-gradient(#f4f4f4, #e1e1e1);
     color: #202020;
     padding: 6px;
     border-radius: 10px;
+    font-size: .8em;
+    border: 3px double #202020;
 
 }
 
+
+.button-style:hover {
+    color: #e1e1e1;
+    border: 3px double #e1e1e1;
+}
+
+.button-style--light:hover {
+    color: #8e90a5;
+    border: 3px double #8e90a5;
+}
+
+
+
+
+/* double border css from stack overflow https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border*/
+
+/*---------------MARGIN PADDING---------------*/
 
 /* {
 margin: 0;
@@ -138,8 +159,6 @@ padding: 0;
 
 }*/
 
-
-
 .background--ivy {
     min-height: 50vh;
     background: url("../images/ivy3.jpg");
@@ -153,10 +172,10 @@ padding: 0;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-        text-align: right;
-        color: #fff;
-    
+
+    text-align: right;
+    color: #fff;
+
 
 }
 
@@ -277,9 +296,9 @@ padding: 0;
 }
 
 #xyz {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  
-  background-color: rgba(0,0,0,0.3);
- } 
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    background-color: rgba(0, 0, 0, 0.3);
+}

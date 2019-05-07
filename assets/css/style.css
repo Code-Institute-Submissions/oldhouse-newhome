@@ -303,23 +303,49 @@ h3 {
 }
 
 
-/*----------TESTING----------*/
+/*----------NAVBAR----------*/
 
-#abc {
-    position: relative;
-}
 
-#xyz {
-    /*position: fixed;
+
+/*#xyz {
+    position: fixed;
         top: 0;
-    z-index: 1;*/
+    z-index: 1;
    background-color: #fff;
    padding: 0;
-   
-    /*background-color: rgba(0, 0, 0, 0.3);*/
+   background-color: rgba(0, 0, 0, 0.3);
+}*/
+
+/*.zzz {
+    color: #c4d270; 
+    color: #202020;
+    padding: 0;
+}*/
+
+
+header {
+    margin-top: 30px;
 }
 
-.zzz {
-    /*color: #c4d270; */
+.navbar {
+    padding: 0;
+    padding-right: 25px!important;
+    background-color: #fff;
+}
+
+.navbar-brand, .navbar-toggler {
+    padding: 0;
+}
+
+a > i,
+.navbar-toggler > i {
     color: #202020;
 }
+
+a > i:hover,
+.navbar-toggler > i:hover {
+    color: #8e90a5;
+}
+
+
+

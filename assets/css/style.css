@@ -192,20 +192,19 @@ h3 {
 
 }*/
 
+.background--hero {
+     min-height: 50vh;
+}
+
 .background--ivy {
-    min-height: 50vh;
-    background: url("../images/ivy3.jpg");
+       background: url("../images/ivy3.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-
     background-attachment: fixed;
-
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     text-align: right;
     color: #fff;
 

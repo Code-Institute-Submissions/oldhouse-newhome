@@ -5,12 +5,13 @@
 
 body {
     font-family: 'Special Elite', cursive;
-    color: #202020
+    color: #313149;
 }
 
 h1,
 h2 {
     font-family: 'Gravitas One', cursive;
+    
 }
 
 h3,
@@ -35,7 +36,7 @@ nav {
     display: block;
     margin-bottom: 15px;
     font-size: .9em;
-    color: #202020;
+    color: #313149;
 }
 
 .font--x {
@@ -51,7 +52,7 @@ nav {
 /*---------------BUTTON---------------*/
 
 .button-style {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 20px;
     /*background-color: #202020;*/
     color: #fff;
@@ -64,7 +65,7 @@ nav {
 }
 
 .button-style--light {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 20px;
     background-image: linear-gradient(#f4f4f4, #e1e1e1);
     color: #202020;
@@ -120,7 +121,7 @@ padding: 0;
 }
 
 .margin-bottom {
-    margin-bottom: 40px;
+    margin-bottom: 40px!important;
 }
 
 .margin-top {
@@ -132,9 +133,9 @@ h2 {
     margin-bottom: 20px;
 }
 
-h3 {
+/*h3 {
     margin-top: 20px;
-}
+}*/
 
 .card {
     margin-bottom: 40px!important;
@@ -371,7 +372,7 @@ header {
 
 a > i,
 .navbar-toggler > i {
-    color: #202020;
+    color: #313149;
 }
 
 a > i:hover,

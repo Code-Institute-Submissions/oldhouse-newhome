@@ -51,7 +51,8 @@ nav {
 /*---------------BUTTON---------------*/
 
 .button-style {
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     /*background-color: #202020;*/
     color: #fff;
     padding: 6px;
@@ -63,7 +64,8 @@ nav {
 }
 
 .button-style--light {
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     background-image: linear-gradient(#f4f4f4, #e1e1e1);
     color: #202020;
     padding: 6px;
@@ -103,28 +105,52 @@ padding: 0;
     padding:0;
 }*/
 
-.margin-padding--0 {
+.marginpadding--0 {
     margin: 0 !important;
     padding: 0 !important;
 }
 
-.mp--0 {
-    margin: 0 !important;
-    padding: 0 !important;
-    }
+.margin-top--0 {
+    margin-top: 0;
+}
+
+.margin-topbottom {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.margin-bottom {
+    margin-bottom: 40px;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
 
 h2 {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 20px;
 }
 
 h3 {
     margin-top: 20px;
 }
+
+.card {
+    margin-bottom: 40px!important;
+}
+/* importants used to overwrite bootstrap */
 /*---------------BACKGROUND---------------*/
 
 .wrap {
     width: 100vw;
+    /*border-left: solid thin #202020;
+    border-right: solid thin #202020;*/
+    
+
+  -moz-box-shadow:    2px 2px 2px 2px #ccc;
+  -webkit-box-shadow: 2px 2px 2px 2px #ccc;
+  box-shadow:         2px 2px 2px 2px #ccc;
 }
 
 /*.navbar {
@@ -353,6 +379,7 @@ a > i:hover,
 .navbar-toggler > i:hover {
     color: #8e90a5;
 }
+
 
 
 

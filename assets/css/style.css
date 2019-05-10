@@ -358,7 +358,9 @@ h3 {
 }
 
 
-
+footer * i {
+    font-size: 1.25rem;
+}
 
 
 /*----------TESTING----------*/

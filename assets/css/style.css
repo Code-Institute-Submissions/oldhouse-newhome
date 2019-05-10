@@ -30,7 +30,8 @@ h3,
 p,
 dt,
 dd,
-nav {
+nav,
+.progress {
     font-family: 'Dosis', sans-serif;
 }
 
@@ -429,4 +430,23 @@ a > i:hover,
     line-height: 1rem;
 }
 
+/*----------MODAL----------*/
+
+.progress {
+    height: 1.5rem;
+    margin: 5px;
+}
+
+.progress-bar {
+ text-align: left;
+ /*height: 2rem;*/
+
+ 
+ background-image: linear-gradient(to right, #313145, #313150);
+}
+
+
+.style-bar {
+ 
+ }
 

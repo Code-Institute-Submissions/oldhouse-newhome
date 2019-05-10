@@ -40,7 +40,7 @@ nav,
 }
 
 
-.a-style {
+.a-style{
     text-decoration: none;
     display: block;
     margin-bottom: 15px;
@@ -48,7 +48,13 @@ nav,
     color: #313150;
 }
 
-.font--x {
+.a-style:hover {
+    text-decoration: none;
+    
+    color: #8e90a5;
+}
+
+a > span {
     font-size: .9rem;
     color: #8e90a5;
 }

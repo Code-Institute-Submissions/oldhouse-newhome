@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dosis|Gravitas+One|Over+the+Rainbow|Special+Elite');
 @import url('https://fonts.googleapis.com/css?family=Dosis:500,600');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Homemade+Apple|Kristi|Satisfy');
+
+/*font-family: 'Cedarville Cursive', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Kristi', cursive;*/
 
 body {
     font-family: 'Special Elite', cursive;
@@ -18,7 +24,7 @@ h2 {
 
 h3,
 .tagline {
-    font-family: 'Over the Rainbow', cursive;
+    font-family: 'Satisfy', cursive;
 }
 
 p,
@@ -207,6 +213,7 @@ h3, figcaption {
      min-height: 50vh;
 }
 
+
 .background--ivy {
        background: url("../images/ivy3.jpg");
     background-position: center center;
@@ -303,19 +310,46 @@ h1 {
     }
 }
 
-
 @media (min-width: 992px) {
     h1 {
         font-size: 4rem;
     }
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 992px) {
+    h3 {
+        font-size: 1.8rem;
+    }
 }
 
 .tagline {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -326,9 +360,10 @@ h3 {
 
 @media (min-width: 992px) {
     .tagline {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 }
+
 
 
 

@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Old House New Home</title>
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" />
@@ -135,38 +136,44 @@
 
                 <div class="row justify-content-center mt-5 mb-5">
                     <div class="col-6 col-md-4 col-lg-2 text-center">
-                        <img src="assets/images/reel1.jpg" alt="extension" class="img-fluid img-thumbnail img-grow">
+                        <a href="assets/images/reel1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                            <img src="assets/images/reel1.jpg" alt="extension" class="img-fluid img-thumbnail"></a>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2 text-center">
-                        <img src="assets/images/reel2.jpg" alt="extension" class="img-fluid img-thumbnail img-grow">
+                        <a href="assets/images/reel2.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                            <img src="assets/images/reel2.jpg" alt="extension" class="img-fluid img-thumbnail"></a>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2 text-center">
-                        <img src="assets/images/reel3.jpg" alt="extension" class="img-fluid img-thumbnail img-grow">
+                        <a href="assets/images/reel3.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                            <img src="assets/images/reel3.jpg" alt="extension" class="img-fluid img-thumbnail"></a>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2 text-center">
-                        <img src="assets/images/reel4.jpg" alt="extension" class="img-fluid img-thumbnail img-grow">
+                        <a href="assets/images/reel4.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                            <img src="assets/images/reel4.jpg" alt="extension" class="img-fluid img-thumbnail"></a>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2 text-center">
-                        <img src="assets/images/reel5.jpg" alt="extension" class="img-fluid img-thumbnail img-grow">
+                        <a href="assets/images/reel5.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                            <img src="assets/images/reel5.jpg" alt="extension" class="img-fluid img-thumbnail"></a>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2 text-center">
-                        <img src="assets/images/reel6.jpg" alt="extension" class="img-fluid img-thumbnail img-grow">
+                        <a href="assets/images/reel6.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                            <img src="assets/images/reel6.jpg" alt="extension" class="img-fluid img-thumbnail"></a>
                     </div>
                 </div>
-                
+                <!-- WHERE: Fancybox used for gallery https://fancyapps.com/fancybox/3/-->
                 <aside class="d-block d-md-none col-md-6 text-center pl-2 pr-2 mb-5">
-                        <div class="background--stonebox">
-                            <h3>Resources</h3>
-                            <hr class="divider">
-                            <a href="http://www.munsterjoinery.ie/" target=”_blank” class="a-style">munster joinery:<br><span>triple glazed joinery</span></a>
-                            <a href="https://www.velux.ie/products/flat-roof-windows" target=”_blank” class="a-style">velux:<br><span>flat roof windows</span></a>
-                            <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">correll timber:<br><span>siberian larch cladding</span></a>
-                            <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">cork roofing:<br><span>metal roofing</span></a>
-                            <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">resicrete:<br><span>resin flooring</span></a>
-                        </div>
-                        <!-- WHY: Wrapped in div to apply margn inside aside.-->
-                        <!-- WHY: Bootstrap display used to reorder on smaller devices.-->
-                    </aside>
+                    <div class="background--stonebox">
+                        <h3>Resources</h3>
+                        <hr class="divider">
+                        <a href="http://www.munsterjoinery.ie/" target=”_blank” class="a-style">munster joinery:<br><span>triple glazed joinery</span></a>
+                        <a href="https://www.velux.ie/products/flat-roof-windows" target=”_blank” class="a-style">velux:<br><span>flat roof windows</span></a>
+                        <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">correll timber:<br><span>siberian larch cladding</span></a>
+                        <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">cork roofing:<br><span>metal roofing</span></a>
+                        <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">resicrete:<br><span>resin flooring</span></a>
+                    </div>
+                    <!-- WHY: Wrapped in div to apply margn inside aside.-->
+                    <!-- WHY: Bootstrap display used to reorder on smaller devices.-->
+                </aside>
 
 
 
@@ -237,7 +244,7 @@
                             <a class="btn button-style--light" href="https://www.alpack.ie/" target="_blank" role="button">source</a>
                         </div>
                         <div class="col-md-6 col-lg-3 p-1">
-                           <img src="assets/images/loft2.jpg " alt="pantry" class="img-fluid">
+                            <img src="assets/images/loft2.jpg " alt="pantry" class="img-fluid">
                         </div>
                         <div class="col-md-6 col-lg-3 p-1 ">
                             <img src="assets/images/loft2.jpg " alt="utility" class="img-fluid">
@@ -279,22 +286,22 @@
   </a>
                         </div>
                     </div>
-                    
-                    
+
+
                 </div>
-                
-                
-                 <div class="row justify-content-center">
-                
-                <div class="col-md-9">
+
+
+                <div class="row justify-content-center">
+
+                    <div class="col-md-9">
                         <p class="mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eius fuga nisi saepe officiis, necessitatibus, doloremque et reiciendis quam, fugit asperiores nihil unde commodi voluptatum tempora officia recusandae cupiditate
                             atque!
                         </p>
                     </div>
-                    </div>
-                
-                    
-                
+                </div>
+
+
+
                 <div class="row justify-content-center border-color--transparent">
                     <!--CARD1-->
                     <!--????????? can u use a cad deck accross columns. Used header and footer and not body as found best to keep alignment when card decks no an option-->
@@ -630,6 +637,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
 </body>
 
 </html>

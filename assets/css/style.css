@@ -39,7 +39,7 @@ nav,
     text-decoration: none;
     display: block;
     margin-bottom: 15px;
-    font-size: .9rem;
+    font-size: 1rem;
     color: #313150;
 }
 
@@ -133,7 +133,7 @@ figcaption {
 
 .background--ivy {
     background: url("../images/ivy3.jpg");
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -161,11 +161,9 @@ figcaption {
     /*background-image: linear-gradient(to right, #f4f4f4, #e1e1e1);*/
     background-color: #f4f4f4;
     border-radius: 15px;
-    margin-right: 30px;
-    margin-left: 30px;
+  
     border: solid thin #e1e1e1;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    
 }
 
 .card-header,
@@ -189,14 +187,14 @@ figcaption {
     width: 200px;
     height: 1px;
     border: 0;
-    background-color: #efe7e9;
+    background-color: #8e90a5;
 }
 
 .divider--light {
     width: 200px;
     height: 1px;
     border: 0;
-    background-color: #fff;
+    background-color: #f4f4f4;
 }
 
 /*----------FONT SIZES----------*/
@@ -267,7 +265,7 @@ h3 {
 
 
 footer * i {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
 }
 
 
@@ -329,6 +327,8 @@ a>i:hover,
 
 .progress-bar {
     text-align: left;
+    text-size: 1.1rem;
+    padding: 10px;
     /*height: 2rem;*/
     background-image: linear-gradient(to right, #313145, #313150);
 }

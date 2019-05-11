@@ -57,8 +57,8 @@ a>span {
 /*---------------BUTTON---------------*/
 
 .button-style {
-    margin-top: 8px;
-    margin-bottom: 24px;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
     color: #fff;
     padding: 6px;
     border-radius: 10px;
@@ -69,8 +69,8 @@ a>span {
 }
 
 .button-style--light {
-    margin-top: 8px;
-    margin-bottom: 24px;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
     color: #313150;
     padding: 6px;
     border-radius: 10px;
@@ -92,9 +92,8 @@ a>span {
 }
 
 
-
-
-/* double border css from stack overflow https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border*/
+/* WHERE: Double border css from stack overflow https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border*/
+/* WHY: Used rem for margin to be in line with bootstrap spacing utilities. */
 
 /*---------------MARGIN PADDING---------------*/
 
@@ -117,6 +116,8 @@ figcaption {
 }
 
 /* WHY: Important used to overwrite bootstrap. */
+/* WHY: Used rem for margin to be in line with bootstrap spacing utilities. */
+
 
 /*---------------BACKGROUND---------------*/
 
@@ -269,7 +270,9 @@ h3 {
 
 
 footer * i {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 

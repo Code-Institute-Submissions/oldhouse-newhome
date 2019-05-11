@@ -114,8 +114,14 @@ figcaption {
 .card {
     margin-bottom: 3rem!important;
 }
-
 /* WHY: Important used to overwrite bootstrap. */
+
+
+.fa-bars:before {
+    margin-right: 1rem;
+}
+
+
 /* WHY: Used rem for margin to be in line with bootstrap spacing utilities. */
 
 
@@ -295,7 +301,7 @@ footer * i {
 
 .navbar {
     padding: 0;
-    padding-right: 25px!important;
+    /*padding-right: 25px!important;*/
     background-color: #fff;
 }
 

@@ -93,9 +93,26 @@ a>span {
 
 
 /* WHERE: Double border css from stack overflow https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border*/
+
 /* WHY: Used rem for margin to be in line with bootstrap spacing utilities. */
 
-/*---------------MARGIN PADDING---------------*/
+/*---------------MARGIN PADDING ALIGNMENT---------------*/
+
+dl,
+p,
+figure {
+    margin: 0;
+}
+
+h1 {
+    text-align: right;
+}
+
+h3,
+figure,
+figcaption {
+    text-align: center;
+}
 
 h2 {
     margin-top: 3rem;
@@ -111,28 +128,27 @@ figcaption {
     margin-top: 1.5rem;
 }
 
+header {
+    margin-top: 3rem;
+}
+
+
 .card {
     margin-bottom: 3rem!important;
 }
+
 /* WHY: Important used to overwrite bootstrap. */
 
-
-.fa-bars:before {
-    margin-right: 1rem;
-}
-
-
 /* WHY: Used rem for margin to be in line with bootstrap spacing utilities. */
-
 
 /*---------------BACKGROUND---------------*/
 
 .wrap {
     width: 100vw;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-   }
-/* shadow code from https://codepen.io/sdthornton/pen/wBZdXq*/
+}
 
+/* shadow code from https://codepen.io/sdthornton/pen/wBZdXq*/
 
 .background--hero {
     min-height: 50vh;
@@ -158,6 +174,7 @@ figcaption {
 .background--stone {
     background-image: linear-gradient(to right, #f4f4f4, #e1e1e1);
 }
+
 /*linear-gradient code from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
 
 .background--dark {
@@ -168,9 +185,9 @@ figcaption {
     /*background-image: linear-gradient(to right, #f4f4f4, #e1e1e1);*/
     background-color: #f4f4f4;
     border-radius: 15px;
-  
+
     border: solid thin #e1e1e1;
-    
+
 }
 
 .card-header,
@@ -301,26 +318,43 @@ footer * i {
 
 .navbar {
     padding: 0;
-    /*padding-right: 25px!important;*/
     background-color: #fff;
 }
 
 .navbar-brand,
 .navbar-toggler {
     padding: 0;
+    border: 0;
 }
+
+
+.navbar-toggler {
+    margin-right: 1rem;
+}
+
+
+
+
+
+button.navbar-toggler:focus {
+    outline: 1px none;
+}
+
+/* WHERE: CSS to remove outline from stack overflow https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4/50668740*/
 
 a>i,
 .navbar-toggler>i {
     color: #313150;
     text-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
 }
+
 /* WHY: 1px used for subtle shadow. rgba is #313150. */
 
 a>i:hover,
 .navbar-toggler>i:hover,
 .nav-item:hover {
     color: #8e90a5;
+    border: 0;
 }
 
 .nav-item {
@@ -330,6 +364,10 @@ a>i:hover,
 .navbar-nav {
     line-height: 1rem;
 }
+
+/*.fa-bars:before {
+    margin-right: 1rem;
+}*/
 
 /*----------MODAL----------*/
 
@@ -345,5 +383,3 @@ a>i:hover,
     /*height: 2rem;*/
     background-image: linear-gradient(to right, #313145, #313150);
 }
-
-

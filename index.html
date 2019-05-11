@@ -16,17 +16,17 @@
 
 <body>
     <a id="home"></a>
+    <!--NAVBAR-->
     <div class="container-fluid">
         <div class="row justify-content-center ">
             <div class="col-md-10 col-lg-8 wrap ">
-
                 <nav class="navbar fixed-top justify-content-end pr-1 pr-md-3">
+                    <!-- WHY: Bootstrap margins used to vary margins for smaller screens.-->
                     <a class="navbar-brand" href="#home"><i class="fas fa-home"></i></a>
-
                     <a class="navbar-brand" href="#contact"><i class="fas fa-envelope"></i></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-bars"></i>
-  </button>
+                        <i class="fas fa-bars"></i>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav text-right">
                             <a class="nav-item nav-link" href="#extend">Extension</a>
@@ -40,20 +40,19 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-    <header class="container-fluid mt-5">
+    <!--HEADER-->
+    <header class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8 wrap background--ivy background--hero d-flex justify-content-end ">
-
+                <!--WHY: Less than 12 cols set for md and lg screens to center content. Approach repeated throughout site.-->
+                <!--WHY: Wrap class used to fill 100% container overwriting Bootstrap margins and padding. Approach repeated throughout site.-->
+                <!-- WHY: Bootstrap flex used to allow text to be centered vertically over hero image.-->
                 <div class="align-self-center">
-                    <h1 class="d-block d-md-none text-right color--light">Old<br>House<br>New<br>Home</h1>
-                    <h1 class="d-none d-md-block text-right color--light">Old House<br>New Home</h1>
+                    <h1 class="d-block d-md-none color--light">Old<br>House<br>New<br>Home</h1>
+                    <h1 class="d-none d-md-block color--light">Old House<br>New Home</h1>
+                    <!-- WHY: Bootstrap display used to control text position on smaller screens.-->
                     <p class="d-none d-md-block tagline text-right color--light">Renovating a 1960's terraced house.</p>
+                    <!-- WHY: Bootstrap display used to change text position on smaller screens.-->
                 </div>
             </div>
         </div>
@@ -63,10 +62,10 @@
     <section class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8 wrap background--stone">
-                <!--WHY... row col used to indent p for md lg-->
                 <div class="row justify-content-center mt-5 mb-5">
                     <div class="col-md-8">
                         <p class="d-block d-md-none tagline">Renovating a 1960's terrace.</p>
+                        <!--WHY: Bootstrap display used to allow both text and text position to change on smaller screens.-->
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quas debitis pariatur quasi laudantium, itaque, fugit et blanditiis iste ut adipisci provident velit mollitia, doloribus modi cumque consectetur iusto. Veniam
                             eum, odit iusto eligendi soluta voluptatibus ipsam non similique eos sapiente tenetur iure, quis quas dignissimos culpa deleniti, modi nisi!</p>
                     </div>
@@ -84,31 +83,29 @@
                 <div class="row">
                     <div class="col">
                         <h2 class="mb-0">extension</h2>
-                        <!--WHY: Removed bottom margin on header as image directly below large amount white at top.-->
+                        <!--WHY: Bootstrap margin used to remove bottom margin as image beneath has a large white area at the top.-->
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-
-                        <figure class="text-center">
-
+                        <figure class="mb-3 mb-md-0">
+                            <!-- WHY: Bootrstrap margin used to create gap between images on small screens.-->
                             <img src="assets/images/drawside4.jpg" alt="side elevation" class="img-fluid">
                             <figcaption>side elevation</figcaption>
                         </figure>
                     </div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6">
                         <figure>
                             <img src="assets/images/drawfloor4p.jpg" alt="floor plan" class="d-md-none img-fluid">
                             <img src="assets/images/drawfloor4.jpg" alt="floor plan" class="d-none d-md-block img-fluid">
-                            <!-- WHY: Swapped landscape image for portait on smaller screens.-->
+                            <!-- WHY: Bootstrap display used to swap landscape image for portait on smaller screens.-->
                             <figcaption>floor plan</figcaption>
                         </figure>
-                        <button type="button" class="btn button-style">download drawings</button>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-4">
                     <div class="col-md-6">
-                        <h3 class="text-center">Design Dilemas</h3>
+                        <h3>Design Dilemas</h3>
                         <hr class="divider">
                         <dl>
                             <dt><i class="fas fa-users"></i>  Neighbours</dt>
@@ -120,7 +117,7 @@
                             <dt><i class="fas fa-euro-sign"> </i>  Budget</dt>
                             <dd>metal roof lean too resin floor</dd>
                         </dl>
-
+                        <!-- WHY: FontAwesome icons used improve readibility.-->
                     </div>
                     <aside class="d-none d-md-block col-md-6 text-center pl-md-4 pr-md-4">
                         <div class="background--stonebox">
@@ -131,17 +128,17 @@
                             <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">correll timber:<br><span>siberian larch cladding</span></a>
                             <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">cork roofing:<br><span>metal roofing</span></a>
                             <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">resicrete:<br><span>resin flooring</span></a>
+                            <button type="button" class="btn button-style">download drawings</button>
                         </div>
-                        <!-- WHY: Wrapped in div to apply margn inside aside.-->
-                        <!-- WHY: Bootstrap display used to reorder on smaller devices.-->
+                        <!-- WHY: Wrapped in div to apply Bootstrap padding to reduce stone background.-->
+                        <!-- WHY: Span used to allow change in formatting.-->
+                        <!-- WHY: Bootstrap display used to change position of aside on smaller screens.-->
                     </aside>
                 </div>
-
                 <div class="row justify-content-center mt-5 mb-5">
                     <div class="col-6 col-md-4 col-lg-2 text-center">
                         <a href="assets/images/reel1.jpg" data-fancybox="gallery" data-caption="Caption #1">
                             <img src="assets/images/reel1.jpg" alt="extension" class="img-fluid img-thumbnail"></a>
-
                     </div>
                     <div class="col-6 col-md-4 col-lg-2 text-center">
                         <a href="assets/images/reel2.jpg" data-fancybox="gallery" data-caption="Caption #1">
@@ -174,16 +171,12 @@
                         <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">correll timber:<br><span>siberian larch cladding</span></a>
                         <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">cork roofing:<br><span>metal roofing</span></a>
                         <a href="https://corell.ie/siberian-larch-cladding/" target=”_blank” class="a-style">resicrete:<br><span>resin flooring</span></a>
+                        <button type="button" class="btn button-style">download drawings</button>
                     </div>
-                    <!-- WHY: Wrapped in div to apply margn inside aside.-->
-                    <!-- WHY: Bootstrap display used to reorder on smaller devices.-->
+                    <!--Bootstrap display used to change position of aside on smaller screens.-->
                 </aside>
-
-
-
-
-
             </div>
+        </div>
         </div>
     </article>
 
@@ -415,18 +408,13 @@
                 <div class="row justify-content-end">
                     <div class="col-md-6">
                         <h2>favourites</h2>
-                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nihil iste asperiores, totam, amet, sunt beatae, quis corporis dolorem dolores reiciendis. Aperiam iste earum culpa reprehenderit cumque, placeat facere dolore!</p>
+                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nihil iste asperiores, totam, amet, sunt beatae, quis corporis dolorem dolores reiciendis. Aperiam iste earum culpa reprehenderit cumque, placeat facere dolore!
+                        </p>
                     </div>
                 </div>
 
                 <div class="row justify-content-center">
-                    <!--margin on bottom card class to ensure consistent margin between decks 1 and 2. 2 card decks used as separate rows.-->
-
                     <div class="col card-deck">
-                        <!--CARD-->
-
-
-
                         <!--CARD1-->
                         <div class="card">
                             <div class="card-header">
@@ -439,11 +427,8 @@
                             </div>
                             <div class="card-footer">
                                 <a class="btn button-style" href="https://www.redbubble.com/" target="_blank" role="button">source</a>
-
                             </div>
                         </div>
-                        <!--/CARD-->
-
                         <!--CARD2-->
                         <div class="card">
                             <div class="card-header">
@@ -459,8 +444,6 @@
                                 <a class="btn button-style" href="https://allhandlesandpulls.co.uk/" target="_blank" role="button">source</a>
                             </div>
                         </div>
-                        <!--/CARD2-->
-
                         <!--CARD3-->
                         <div class="card">
                             <div class="card-header">
@@ -475,19 +458,10 @@
                                 <a class="btn button-style" href="https://royaldesign.com/" target="_blank" role="button">source</a>
                             </div>
                         </div>
-                        <!--/CARD3-->
-
-                        <!--/CARD DECK-->
                     </div>
                 </div>
                 <div class="row justify-content-center">
-
-
                     <div class="col card-deck">
-                        <!--CARD-->
-
-
-
                         <!--CARD1-->
                         <div class="card">
                             <div class="card-header">
@@ -502,8 +476,6 @@
                                 <a class="btn button-style" href="https://www.d40studio.com/" target="_blank" role="button">source</a>
                             </div>
                         </div>
-                        <!--/CARD-->
-
                         <!--CARD2-->
                         <div class="card">
                             <div class="card-header">
@@ -519,8 +491,6 @@
                                 <a class="btn button-style" href="https://www.besttile.ie/" target="_blank" role="button">source</a>
                             </div>
                         </div>
-                        <!--/CARD2-->
-
                         <!--CARD3-->
                         <div class="card">
                             <div class="card-header">
@@ -535,14 +505,8 @@
                                 <a class="btn button-style" href="https://www.ikea.com/ie/en/" target="_blank" role="button">source</a>
                             </div>
                         </div>
-                        <!--/CARD3-->
-
-                        <!--/CARD DECK-->
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     </article>

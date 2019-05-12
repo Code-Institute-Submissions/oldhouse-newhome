@@ -22,8 +22,8 @@
             <div class="col-md-10 col-lg-8 wrap ">
                 <nav class="navbar fixed-top justify-content-end pr-1 pr-md-3">
                     <!-- WHY: Bootstrap margins used to vary margins for smaller screens.-->
-                    <a class="navbar-brand" href="#home"><i class="fas fa-home"></i></a>
-                    <a class="navbar-brand" href="#contact"><i class="fas fa-envelope"></i></a>
+                    <a class="navbar-brand" href="#home"><i class="fas fa-home" aria-hidden="true"></i><span class="sr-only">home link</span></a>
+                    <a class="navbar-brand" href="#contact"><i class="fas fa-envelope" aria-hidden="true"></i><span class="sr-only">contact link</span></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars"></i>
                     </button>
@@ -35,7 +35,7 @@
                             <a class="nav-item nav-link" href="#fav">Favourites</a>
                         </div>
                     </div>
-                    <a class="navbar-brand" href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"></a>
+                    <a class="navbar-brand" href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" aria-hidden="true"><span class="sr-only">pinterest save link</span></a>
                 </nav>
             </div>
         </div>
@@ -117,7 +117,7 @@
                             <dt><i class="fas fa-euro-sign"> </i>  Budget</dt>
                             <dd>metal roof lean too resin floor</dd>
                         </dl>
-                        <!-- WHY: FontAwesome icons used improve readibility.-->
+                        <!-- WHY: FontAwesome icons used improve readibility. No aria used as dt explains icon.-->
                     </div>
                     <aside class="d-none d-md-block col-md-6 text-center pl-md-4 pr-md-4">
                         <div class="background--stonebox">

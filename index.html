@@ -414,7 +414,7 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col card-deck">
+                    <div class="col-12 card-deck">
                         <!--CARD1-->
                         <div class="card">
                             <div class="card-header">
@@ -461,7 +461,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col card-deck">
+                    <div class="col-12 card-deck">
                         <!--CARD1-->
                         <div class="card">
                             <div class="card-header">
@@ -549,19 +549,32 @@
             <div class="col-md-10 col-lg-8 wrap background--stone pt-3 pb-3 ">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <i class="fab fa-pinterest fa-fw"></i>
-                        <i class="fab fa-instagram fa-fw"></i>
-                        <i class="fab fa-facebook fa-fw"></i>
-                        <!--WHERE: icon spacing from stackoverflow https://stackoverflow.com/questions/27969485/space-between-link-and-icon-fontawesome-->
+                        <a href="https://www.pinterest.ie/" target="_blank">
+                             <i class="fab fa-pinterest" aria-hidden="true"></i>
+                             <span class="sr-only">facebook link</span>
+                             </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                             <i class="fab fa-instagram" aria-hidden="true"></i>
+                             <span class="sr-only">facebook link</span>
+                             </a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                             <i class="fab fa-facebook" aria-hidden="true"></i>
+                             <span class="sr-only">facebook link</span>
+                             </a>
+                        <!--WHERE: Icon spacing from stackoverflow https://stackoverflow.com/questions/27969485/space-between-link-and-icon-fontawesome-->
                     </div>
                     <div class="col-12 text-center">
                         <span>site designed by coderbeez</span>
-                        <i class="fab fa-github fa-fw pl-1 pr-1"></i>
-                        <!--WHY: Overwrote css padding with Bootstrap to keep icon and text on same line.-->
+                        <a href="https://github.com/" target="_blank" class="ml-1 mr-1">
+                            <i class="fab fa-github fa-fw " aria-hidden="true"></i>
+                             <span class="sr-only">github link</span>
+                             </a>
+                        <!-- WHY: Overwrote css margin with Bootstrap to keep icon and text closer on same line.-->
                     </div>
                     <div class="col-12 text-center">
                         <span>always play nice :)</span>
                     </div>
+                    <!-- WHY: Used just 1 Bootstrap row but used 3 col-12s to split content over 3 rows.--> 
                 </div>
             </div>
         </div>

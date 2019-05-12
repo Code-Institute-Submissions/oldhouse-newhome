@@ -291,13 +291,24 @@ h3 {
     }
 }
 
+/*----------FOOTER----------*/
 
 footer * i {
     font-size: 1.5rem;
-    padding-right: 1.3rem;
-    padding-left: 1.3rem;
+
 }
 
+footer * a {
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+}
+
+
+a:hover {
+    text-decoration: none
+}
+
+/* WHY: Hover formatting taken from navbar. */
 
 /*----------TESTING----------*/
 
@@ -355,6 +366,7 @@ a>i:hover,
 .nav-item:hover {
     color: #8e90a5;
     border: 0;
+    text-decoration: none;
 }
 
 .nav-item {

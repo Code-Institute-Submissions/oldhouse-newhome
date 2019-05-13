@@ -60,6 +60,7 @@
 
     <!--INTRO-->
     <section class="container-fluid">
+        <!--WHY: Used section for intro as would not make sense on it own.-->
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8 wrap background--stone">
                 <div class="row justify-content-center mt-5 mb-5">
@@ -78,6 +79,7 @@
     <!--EXTEND-->
     <a id="extend"></a>
     <article class="container-fluid">
+        <!--WHY: Used section for extend as would make sense on it own.-->
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8 wrap background--light">
                 <div class="row">
@@ -191,18 +193,18 @@
                     <section class="row mb-5">
                         <div class="col-12 col-lg-6 text-center ">
                             <h3 class="color--light mt-lg-0">Sleeping Loft</h3>
-                            <!-- WHY: Removed top margin on large screens to align heading above images.-->
+                            <!-- WHY: Removed top margin using Bootstrap on large screens to position heading above images on lg screens.-->
                             <hr class="divider--light">
                             <p class="color--light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis assumenda nemo ratione veritatis libero facilis quos cupiditate architecto distinctio error.</p>
                             <a class="btn button-style--light" href="https://tecrostar.com/en/" target="_blank" role="button">source</a>
                         </div>
                         <div class="col-md-6 col-lg-3 p-2">
                             <img src="assets/images/spaceloft5.jpg " alt="sleeping loft" class="img-fluid border--light">
-
                         </div>
                         <div class="col-md-6 col-lg-3 p-2">
                             <div class="embed-responsive embed-responsive-16by9 border--light">
                                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hixU05vre2s" allowfullscreen></iframe>
+                                <!-- WHERE: Responsive iframe from Bootstrap.-->
                             </div>
                         </div>
                     </section>
@@ -256,12 +258,13 @@
     <!--KITCHEN-->
     <a id="kitchen"></a>
     <article class="container-fluid">
+        <!--WHY: Used article for kitchen as would not make sense on it own.-->
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8 wrap background--light ">
                 <h2 class="text-right">kitchen</h2>
                 <div class="row justify-content-center">
                     <div class="col-md-9">
-                        <!--BOOTSTRAP CAROSEL-->
+                        <!--WHERE: Carousel from Bootstrap.-->
                         <div id="carousel-kitchen" class="carousel slide" data-ride="carousel" data-interval="false">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -278,7 +281,7 @@
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carousel-kitchen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
                             <a class="carousel-control-next" href="#carousel-kitchen" role="button" data-slide="next">
@@ -287,25 +290,18 @@
   </a>
                         </div>
                     </div>
-
-
                 </div>
-
-
                 <div class="row justify-content-center">
-
                     <div class="col-md-9">
                         <p class="mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eius fuga nisi saepe officiis, necessitatibus, doloremque et reiciendis quam, fugit asperiores nihil unde commodi voluptatum tempora officia recusandae cupiditate
                             atque!
                         </p>
                     </div>
                 </div>
-
-
-
                 <div class="row justify-content-center border-color--transparent">
+                    <!-- WHY: Border color transparent used to overwrite Bootstraps default formatting.-->
+                    <!-- WHY: Could not use Bootstrap card decks as cards accross columns. Used both header and footer and not body as resulted in best alignment when card decks were not an option. This approach caused gap in Internet Explorer where bosy should be.-->
                     <!--CARD1-->
-                    <!--????????? can u use a cad deck accross columns. Used header and footer and not body as found best to keep alignment when card decks no an option-->
                     <div class="card col-6 col-md-4 col-lg-2 ">
                         <div class="card-header">
                             <figure> <img src="assets/images/kworktop2.jpg" alt="worktop" class="img-fluid">
@@ -313,7 +309,6 @@
                             </figure>
                         </div>
                         <div class="card-body">
-
                         </div>
                         <div class="card-footer">
                             <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><br>
@@ -328,7 +323,6 @@
                             </figure>
                         </div>
                         <div class="card-body">
-
                         </div>
                         <div class="card-footer">
                             <i class="far fa-star"></i><br>
@@ -357,7 +351,6 @@
                             </figure>
                         </div>
                         <div class="card-body">
-
                         </div>
                         <div class="card-footer">
                             <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><br>
@@ -372,7 +365,6 @@
                             </figure>
                         </div>
                         <div class="card-body">
-
                         </div>
                         <div class="card-footer">
                             <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><br>
@@ -387,7 +379,6 @@
                             </figure>
                         </div>
                         <div class="card-body">
-
                         </div>
                         <div class="card-footer">
                             <i class="far fa-star"></i><i class="far fa-star"></i><br>
@@ -398,9 +389,7 @@
                 </div>
                 <!--/BOOTSTRAP CAROSEL-->
             </div>
-            <!--/car-row-->
         </div>
-
     </article>
 
     <!--FAVOURITES-->
@@ -415,9 +404,9 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="row justify-content-center">
                     <div class="col-12 card-deck">
+                        <!--WHY: Used 2 Bootstrap card decks in 2 separate rows to show 3 cards stacked over 3 cards on md and lg screens.-->
                         <!--CARD1-->
                         <div class="card">
                             <div class="card-header">
@@ -517,6 +506,7 @@
     <!--CONTACT-->
     <a id="contact"></a>
     <section class="container-fluid">
+        <!--WHY: Used section for intro as would not make sense on it own.-->
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8 wrap">
                 <div class="row">
@@ -541,6 +531,7 @@
                             </div>
                             <button type="submit " class="btn  button-style ">submit</button>
                         </form>
+                        <!--WHERE: Bootstrap form.-->
                     </div>
                 </div>
             </div>
@@ -564,12 +555,12 @@
                              <i class="fab fa-facebook" aria-hidden="true"></i>
                              <span class="sr-only">facebook link</span>
                              </a>
-                        <!--WHERE: Icon spacing from stackoverflow https://stackoverflow.com/questions/27969485/space-between-link-and-icon-fontawesome-->
                     </div>
                     <div class="col-12 text-center">
                         <span>site designed by coderbeez</span>
                         <a href="https://github.com/" target="_blank" class="ml-1 mr-1">
                             <i class="fab fa-github fa-fw " aria-hidden="true"></i>
+                            <!--WHERE: Icon spacing from stackoverflow https://stackoverflow.com/questions/27969485/space-between-link-and-icon-fontawesome-->
                              <span class="sr-only">github link</span>
                              </a>
                         <!-- WHY: Overwrote css margin with Bootstrap to keep icon and text closer on same line.-->
@@ -577,7 +568,7 @@
                     <div class="col-12 text-center">
                         <span>always play nice :)</span>
                     </div>
-                    <!-- WHY: Used just 1 Bootstrap row but used 3 col-12s to split content over 3 rows.--> 
+                    <!-- WHY: Used just 1 Bootstrap row but used 3 col-12s to split content over 3 rows.-->
                 </div>
             </div>
         </div>
@@ -617,6 +608,7 @@
             </div>
         </div>
     </div>
+    <!-- WHERE: Bootstrap modal.-->
     <!-- /Modal -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>

@@ -96,7 +96,7 @@ a>span {
 
 /* WHY: Used rem for margin to be in line with bootstrap spacing utilities. */
 
-/*---------------MARGIN PADDING ALIGNMENT---------------*/
+/*---------------MARGIN PADDING ALIGNMENT BORDERS---------------*/
 
 dl,
 p,
@@ -140,6 +140,11 @@ header {
 /* WHY: Important used to overwrite bootstrap. */
 
 /* WHY: Used rem for margin to be in line with bootstrap spacing utilities. */
+
+
+.border--light {
+    border: solid thin white;
+}
 
 /*---------------BACKGROUND---------------*/
 

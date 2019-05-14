@@ -245,48 +245,13 @@ h1 {
     font-size: 3rem;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    h1 {
-        font-size: 3.5rem;
-    }
-}
-
-@media (min-width: 992px) {
-    h1 {
-        font-size: 4rem;
-    }
-}
 
 h2 {
     font-size: 2rem;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    h2 {
-        font-size: 2rem;
-    }
-}
-
-@media (min-width: 992px) {
-    h2 {
-        font-size: 2.5rem;
-    }
-}
-
 h3 {
     font-size: 1.6rem;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    h3 {
-        font-size: 1.6rem;
-    }
-}
-
-@media (min-width: 992px) {
-    h3 {
-        font-size: 1.8rem;
-    }
 }
 
 .tagline {
@@ -294,16 +259,35 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+     h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
     .tagline {
         font-size: 2rem;
     }
 }
 
 @media (min-width: 992px) {
-    .tagline {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+     .tagline {
         font-size: 2.25rem;
     }
 }
+
 
 i {
     font-size: 1.75rem;
@@ -320,11 +304,9 @@ dt>i {
 .modalbody span i {
     font-size: 2rem;
 }
-/* FIX */
+/* FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-/*figcaption {
-    font-size: .9rem;
-}*/
+
 /*----------FOOTER----------*/
 
 

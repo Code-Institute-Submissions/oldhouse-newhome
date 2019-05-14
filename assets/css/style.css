@@ -159,11 +159,13 @@ header {
     min-height: 50vh;
 }
 
+
+
 .background--ivy {
     background: url("../images/ivy3.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: scroll;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -362,9 +364,12 @@ a>i,
 .navbar-toggler>i {
     color: #313150;
     text-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
+    font-size: 1.5rem;
+    margin-right: .75rem;
 }
 
 /* WHY: 1px used for subtle shadow. rgba is #313150. */
+/* WHY: Margin used for spacing rather than padding to reduce channce of selecting wrong icon.*/
 
 a>i:hover,
 .navbar-toggler>i:hover,
@@ -379,8 +384,9 @@ a>i:hover,
 }
 
 .navbar-nav {
-    line-height: 1rem;
+    line-height: 2.5rem;
 }
+/* WHY: default line height increased to improve usability. */
 
 /*.fa-bars:before {
     margin-right: 1rem;

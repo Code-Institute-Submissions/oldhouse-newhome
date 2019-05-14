@@ -18,17 +18,19 @@
     <a id="home"></a>
     <!--NAVBAR-->
     <div class="container-fluid">
-        <div class="row justify-content-center ">
-            <div class="col-md-10 col-lg-8 wrap ">
-                <nav class="navbar fixed-top justify-content-end pr-1 pr-md-3">
+        <div class="row">
+            <div class="col-12">
+            <!--<div class="col-md-10 col-lg-8 wrap ">-->
+                <nav class="navbar navbar-expand-md fixed-top pr-1 pr-md-3 justify-content-center">
                     <!-- WHY: Bootstrap margins used to vary margins for smaller screens.-->
+                    <!-- FIX: JUSTIFY.-->
                     <a class="navbar-brand" href="#home"><i class="fas fa-home" aria-hidden="true"></i><span class="sr-only">home link</span></a>
                     <a class="navbar-brand" href="#contact"><i class="fas fa-envelope" aria-hidden="true"></i><span class="sr-only">contact link</span></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav text-right">
+                        <div class="navbar-nav text-center">
                             <a class="nav-item nav-link" href="#extend">Extension</a>
                             <a class="nav-item nav-link" href="#space">Small Spaces</a>
                             <a class="nav-item nav-link" href="#kitchen">Kitchen</a>
@@ -43,18 +45,18 @@
     <!--HEADER-->
     <header class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-8 wrap background--ivy background--hero d-flex justify-content-end ">
-                <!--WHY: Less than 12 cols set for md and lg screens to center content. Approach repeated throughout site.-->
-                <!--WHY: Wrap class used to fill 100% container overwriting Bootstrap margins and padding. Approach repeated throughout site.-->
-                <!-- WHY: Bootstrap flex used to allow text to be centered vertically over hero image.-->
-                <div class="align-self-center">
-                    <h1 class="d-block d-md-none color--light">Old<br>House<br>New<br>Home</h1>
-                    <h1 class="d-none d-md-block color--light">Old House<br>New Home</h1>
-                    <!-- WHY: Bootstrap display used to control text position on smaller screens.-->
-                    <p class="d-none d-md-block tagline text-right color--light">Renovating a 1960's terraced house.</p>
-                    <!-- WHY: Bootstrap display used to change text position on smaller screens.-->
+                <div class="col-md-10 col-lg-8 wrap background--ivy background--hero d-flex justify-content-end ">
+                    <!--WHY: Less than 12 cols set for md and lg screens to center content. Approach repeated throughout site.-->
+                    <!--WHY: Wrap class used to fill 100% container overwriting Bootstrap margins and padding. Approach repeated throughout site.-->
+                    <!-- WHY: Bootstrap flex used to allow text to be centered vertically over hero image.-->
+                    <div class="align-self-center">
+                        <h1 class="d-block d-md-none color--light">Old<br>House<br>New<br>Home</h1>
+                        <h1 class="d-none d-md-block color--light">Old House<br>New Home</h1>
+                        <!-- WHY: Bootstrap display used to control text position on smaller screens.-->
+                        <p class="d-none d-md-block tagline text-right color--light">Renovating a 1960's terraced house.</p>
+                        <!-- WHY: Bootstrap display used to change text position on smaller screens.-->
+                    </div>
                 </div>
-            </div>
         </div>
     </header>
 
@@ -179,7 +181,7 @@
                 </aside>
             </div>
         </div>
-        
+
     </article>
 
     <!--SMALL SPACES-->
@@ -293,9 +295,8 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-9">
-                        <p class="mt-5 mb-5">Although minimal, our kitchen is super-efficient – unloading the dishwasher takes no more than two steps. The cabinets, shelf and
-                        pantry are tulip wood with an almost clear satin varnish. Awkward changes in ceiling height meant we opted for no upper cabinets. The quartz worktop was a complete 
-                        splurge but it’s both beautiful and practical.
+                        <p class="mt-5 mb-5">Although minimal, our kitchen is super-efficient – unloading the dishwasher takes no more than two steps. The cabinets, shelf and pantry are tulip wood with an almost clear satin varnish. Awkward changes in ceiling height meant
+                            we opted for no upper cabinets. The quartz worktop was a complete splurge but it’s both beautiful and practical.
                         </p>
                     </div>
                 </div>

@@ -50,7 +50,7 @@ nav,
 
 a>span {
     font-size: .9rem;
-    color: #8e90a5;
+    /*color: darkgrey;*/
 }
 
 
@@ -165,8 +165,6 @@ dd {
 .background--hero {
     min-height: 50vh;
 }
-
-
 
 .background--ivy {
     background: url("../images/ivy3sm.jpg");
@@ -413,8 +411,7 @@ a>i:hover,
     text-align: left;
     text-size: 1.1rem;
     padding: 10px;
-    /*height: 2rem;*/
-    background-image: linear-gradient(to right, #313145, #313150);
+       background-image: linear-gradient(to right, #313145, #313150);
 }
 
 

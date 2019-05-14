@@ -241,9 +241,15 @@ dd {
 
 /*----------FONT SIZES----------*/
 
+.shadow--dark {
+ text-shadow: 1px 1px black;
+}
+/* WHY: Using text shadow to improve readability on background--ivy.*/
+
+
 h1 {
     font-size: 3rem;
-}
+    }
 
 
 h2 {
@@ -252,11 +258,11 @@ h2 {
 
 h3 {
     font-size: 1.6rem;
-}
+    }
 
 .tagline {
     font-size: 1.6rem;
-}
+   }
 
 @media (min-width: 768px) and (max-width: 991px) {
     h1 {

@@ -146,6 +146,13 @@ header {
     border: solid thin white;
 }
 
+dt>i {
+    margin-right: 1rem;
+}
+
+dd {
+    margin-bottom: 1.5rem;
+}
 /*---------------BACKGROUND---------------*/
 
 .wrap {
@@ -298,12 +305,28 @@ h3 {
     }
 }
 
+i {
+    font-size: 1.75rem;
+}
+
+dt>i {
+    font-size: 1.25rem;
+}
+
+.fa-star {
+    font-size: .75rem;
+}
+
+.modalbody span i {
+    font-size: 2rem;
+}
+/* FIX */
+
+/*figcaption {
+    font-size: .9rem;
+}*/
 /*----------FOOTER----------*/
 
-footer * i {
-    font-size: 1.5rem;
-
-}
 
 footer * a {
     margin-right: 1.3rem;
@@ -364,8 +387,7 @@ a>i,
 .navbar-toggler>i {
     color: #313150;
     text-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
-    font-size: 1.5rem;
-    margin-right: .75rem;
+        margin-right: .75rem;
 }
 
 /* WHY: 1px used for subtle shadow. rgba is #313150. */
@@ -406,3 +428,5 @@ a>i:hover,
     /*height: 2rem;*/
     background-image: linear-gradient(to right, #313145, #313150);
 }
+
+

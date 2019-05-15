@@ -32,8 +32,168 @@ nav,
     color: #fff
 }
 
+h1 {
+    font-size: 3rem;
+    }
 
-/*---------------LINK TEXT---------------*/
+h2 {
+    font-size: 2rem;
+}
+
+h3, .tagline {
+    font-size: 1.6rem;
+    }
+
+i {
+    font-size: 1.75rem;
+}
+
+dt>i {
+    font-size: 1.25rem;
+}
+
+.fa-star {
+    font-size: .75rem;
+}
+
+.shadow--dark {
+ text-shadow: 1px 1px black;
+}
+/* WHY: Using text shadow to improve readability of text on background--ivy.*/
+
+
+/*---------------MARGINS & ALIGNMENT---------------*/
+
+/* WHY: Used rem for margin to be in line with bootstrap spacing utilities. */
+
+dl,
+p,
+figure {
+    margin: 0;
+}
+
+h1 {
+    text-align: right;
+}
+
+h3,
+figure,
+figcaption {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    margin-bottom: 1.5rem;
+}
+
+h3,
+figcaption {
+    margin-top: 1.5rem;
+}
+
+header {
+    margin-top: 3rem;
+}
+
+dt>i {
+    margin-right: 1rem;
+}
+
+dd {
+    margin-bottom: 1.5rem;
+}
+
+/*---------------BACKGROUNDS & BORDERS---------------*/
+
+.wrap {
+    width: 100vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+/* WHERE: Shadow code from https://codepen.io/sdthornton/pen/wBZdXq*/
+
+.background--hero {
+    min-height: 50vh;
+}
+
+.background--ivy {
+    background: url("../images/ivy3sm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-attachment: scroll;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: right;
+    color: #fff;
+}
+
+.background--light {
+    background-color: #fff;
+}
+
+.background--stone {
+    background-image: linear-gradient(to right, #f4f4f4, #e1e1e1);
+}
+/* WHERE: Linear-gradient code from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
+
+.background--dark {
+    background-image: linear-gradient(to right, #313145, #313150);
+}
+
+.background--stonebox {
+    /*background-image: linear-gradient(to right, #f4f4f4, #e1e1e1);*/
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    border: solid thin #e1e1e1;
+}
+
+.border--light {
+    border: solid thin white;
+}
+
+/*----------NAVBAR----------*/
+
+
+.navbar {
+    padding: 0;
+    background-color: #fff;
+    border-bottom: solid thin  #f4f4f4;
+    
+}
+
+
+.navbar-brand,
+.navbar-toggler {
+    padding: 0;
+    border: 0;
+}
+
+
+.navbar-toggler {
+    margin-right: 1rem;
+}
+
+
+button.navbar-toggler:focus {
+    outline: 1px none;
+}
+
+/* WHERE: CSS to remove outline from stack overflow https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4/50668740*/
+
+
+
+.nav-item {
+    color: #313150;
+}
+
+
+/*---------------LINK TEXT & ICONS---------------*/
 
 .a-style {
     text-decoration: none;
@@ -53,8 +213,42 @@ a>span {
     color: #8e90a5;
 }
 
+a>i,
+.navbar-toggler>i {
+    color: #313150;
+    text-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
+        margin-right: .75rem;
+}
 
-/*---------------BUTTON---------------*/
+/* WHY: 1px used for subtle shadow. rgba is #313150. */
+/* WHY: Margin used for spacing rather than padding to reduce channce of selecting wrong icon.*/
+
+a>i:hover,
+.navbar-toggler>i:hover,
+.nav-item:hover {
+    color: #8e90a5;
+    border: 0;
+    text-decoration: none;
+}
+
+/*---------------DIVIDERS---------------*/
+
+.divider {
+    width: 200px;
+    height: 1px;
+    border: 0;
+    background-color: #8e90a5;
+}
+
+.divider--light {
+    width: 200px;
+    height: 1px;
+    border: 0;
+    background-color: #f4f4f4;
+}
+
+
+/*---------------BUTTONS---------------*/
 
 .button-style {
     margin-top: .5rem;
@@ -96,128 +290,9 @@ a>span {
 
 /* WHY: Used rem for margin to be in line with bootstrap spacing utilities. */
 
-/*---------------MARGIN PADDING ALIGNMENT BORDERS---------------*/
-
-dl,
-p,
-figure {
-    margin: 0;
-}
-
-h1 {
-    text-align: right;
-}
-
-h3,
-figure,
-figcaption {
-    text-align: center;
-}
-
-h2 {
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-}
-
-h3 {
-    margin-bottom: 1.5rem;
-}
-
-h3,
-figcaption {
-    margin-top: 1.5rem;
-}
-
-header {
-    margin-top: 3rem;
-}
 
 
-.card {
-    margin-bottom: 3rem!important;
-}
-
-/* WHY: Important used to overwrite bootstrap. */
-
-/* WHY: Used rem for margin to be in line with bootstrap spacing utilities. */
-
-
-.border--light {
-    border: solid thin white;
-}
-
-dt>i {
-    margin-right: 1rem;
-}
-
-dd {
-    margin-bottom: 1.5rem;
-}
-
-
-/*.navbar-expand-md {
-    margin: auto!important;
-}*/
-
-/*@media (min-width: 768px) {
-.navbar-expand-md {
-        justify-content: center!important;
-}
-}*/
-
- .navbar-nav {
-position: absolute;
-left: 50%;
-transform: translatex(-50%);}
-
-/*---------------BACKGROUND---------------*/
-
-.wrap {
-    width: 100vw;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-/* shadow code from https://codepen.io/sdthornton/pen/wBZdXq*/
-
-.background--hero {
-    min-height: 50vh;
-}
-
-.background--ivy {
-    background: url("../images/ivy3sm.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    /*background-attachment: scroll;*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: right;
-    color: #fff;
-}
-
-.background--light {
-    background-color: #fff;
-}
-
-.background--stone {
-    background-image: linear-gradient(to right, #f4f4f4, #e1e1e1);
-}
-
-/*linear-gradient code from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
-
-.background--dark {
-    background-image: linear-gradient(to right, #313145, #313150);
-}
-
-.background--stonebox {
-    /*background-image: linear-gradient(to right, #f4f4f4, #e1e1e1);*/
-    background-color: #f4f4f4;
-    border-radius: 15px;
-
-    border: solid thin #e1e1e1;
-
-}
+/*---------------CARDS---------------*/
 
 .card-header,
 .card-footer,
@@ -238,46 +313,47 @@ transform: translatex(-50%);}
     border-color: transparent;
 }
 
-/*---------------DIVIDER---------------*/
-
-.divider {
-    width: 200px;
-    height: 1px;
-    border: 0;
-    background-color: #8e90a5;
+.card {
+    margin-bottom: 3rem!important;
 }
 
-.divider--light {
-    width: 200px;
-    height: 1px;
-    border: 0;
-    background-color: #f4f4f4;
+/* WHY: Important used to overwrite bootstrap. */
+
+
+/*----------FOOTER----------*/
+
+
+footer * a {
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
 }
 
-/*----------FONT SIZES----------*/
 
-.shadow--dark {
- text-shadow: 1px 1px black;
+a:hover {
+    text-decoration: none
 }
-/* WHY: Using text shadow to improve readability on background--ivy.*/
+/* WHY: Hover formatting taken from navbar. */
 
 
-h1 {
-    font-size: 3rem;
-    }
+/*----------MODAL----------*/
 
-
-h2 {
-    font-size: 2rem;
+.progress {
+    height: 1.5rem;
+    margin: 5px;
 }
 
-h3 {
-    font-size: 1.6rem;
-    }
+.progress-bar {
+    text-align: left;
+    text-size: 1.1rem;
+    padding: 10px;
+       background-image: linear-gradient(to right, #313145, #313150);
+}
 
-.tagline {
-    font-size: 1.6rem;
-   }
+.modal-body * i {
+    font-size: 1.5rem;
+}
+/*----------MEDIA QUERIES----------*/
+
 
 @media (min-width: 768px) and (max-width: 991px) {
     h1 {
@@ -291,6 +367,11 @@ h3 {
     }
     .tagline {
         font-size: 2rem;
+    }
+    
+    .navbar {
+    margin-left: 8.2vw;
+    margin-right: 8.2vw;
     }
 }
 
@@ -307,128 +388,11 @@ h3 {
      .tagline {
         font-size: 2.25rem;
     }
+     .navbar {
+    margin-left: 16.5vw;
+    margin-right: 16.5vw;
+    }
 }
 
-
-i {
-    font-size: 1.75rem;
-}
-
-dt>i {
-    font-size: 1.25rem;
-}
-
-.fa-star {
-    font-size: .75rem;
-}
-
-.modal-body * i {
-    font-size: 2rem;
-}
-/* FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
-
-/*----------FOOTER----------*/
-
-
-footer * a {
-    margin-right: 1.3rem;
-    margin-left: 1.3rem;
-}
-
-
-a:hover {
-    text-decoration: none
-}
-
-/* WHY: Hover formatting taken from navbar. */
-
-/*----------TESTING----------*/
-
-.testr {
-    border: solid thin red;
-}
-
-.testg {
-    border: solid thin green;
-}
-
-.testb {
-    border: solid thin blue;
-}
-
-
-/*----------NAVBAR----------*/
-
-.navbar {
-    padding: 0;
-    background-color: #fff;
-}
-
-.navbar-brand,
-.navbar-toggler {
-    padding: 0;
-    border: 0;
-}
-
-
-.navbar-toggler {
-    margin-right: 1rem;
-}
-
-
-
-
-
-button.navbar-toggler:focus {
-    outline: 1px none;
-}
-
-/* WHERE: CSS to remove outline from stack overflow https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4/50668740*/
-
-a>i,
-.navbar-toggler>i {
-    color: #313150;
-    text-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
-        margin-right: .75rem;
-}
-
-/* WHY: 1px used for subtle shadow. rgba is #313150. */
-/* WHY: Margin used for spacing rather than padding to reduce channce of selecting wrong icon.*/
-
-a>i:hover,
-.navbar-toggler>i:hover,
-.nav-item:hover {
-    color: #8e90a5;
-    border: 0;
-    text-decoration: none;
-}
-
-.nav-item {
-    color: #313150;
-}
-
-.navbar-nav {
-    line-height: 2.5rem;
-}
-/* WHY: default line height increased to improve usability. */
-
-/*.fa-bars:before {
-    margin-right: 1rem;
-}*/
-
-/*----------MODAL----------*/
-
-.progress {
-    height: 1.5rem;
-    margin: 5px;
-}
-
-.progress-bar {
-    text-align: left;
-    text-size: 1.1rem;
-    padding: 10px;
-       background-image: linear-gradient(to right, #313145, #313150);
-}
 
 

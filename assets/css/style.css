@@ -153,6 +153,23 @@ dt>i {
 dd {
     margin-bottom: 1.5rem;
 }
+
+
+/*.navbar-expand-md {
+    margin: auto!important;
+}*/
+
+/*@media (min-width: 768px) {
+.navbar-expand-md {
+        justify-content: center!important;
+}
+}*/
+
+ .navbar-nav {
+position: absolute;
+left: 50%;
+transform: translatex(-50%);}
+
 /*---------------BACKGROUND---------------*/
 
 .wrap {
@@ -305,7 +322,7 @@ dt>i {
     font-size: .75rem;
 }
 
-.modalbody span i {
+.modal-body * i {
     font-size: 2rem;
 }
 /* FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */

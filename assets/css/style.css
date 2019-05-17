@@ -124,8 +124,7 @@ dd {
     background: url("../images/ivy3sm.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    /*background-attachment: scroll;*/
-    -webkit-background-size: cover;
+       -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -164,8 +163,7 @@ dd {
     padding: 0;
     background-color: #fff;
     border-bottom: solid thin  #f4f4f4;
-    
-}
+   }
 
 
 .navbar-brand,
@@ -183,9 +181,7 @@ dd {
 button.navbar-toggler:focus {
     outline: 1px none;
 }
-
 /* WHERE: CSS to remove outline from stack overflow https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4/50668740*/
-
 
 
 .nav-item {
@@ -219,7 +215,6 @@ a>i,
     text-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
         margin-right: .75rem;
 }
-
 /* WHY: 1px used for subtle shadow. rgba is #313150. */
 /* WHY: Margin used for spacing rather than padding to reduce channce of selecting wrong icon.*/
 
@@ -246,7 +241,6 @@ a>i:hover,
     border: 0;
     background-color: #f4f4f4;
 }
-
 
 /*---------------BUTTONS---------------*/
 
@@ -285,11 +279,8 @@ a>i:hover,
     border: 3px double #8e90a5;
 }
 
-
 /* WHERE: Double border css from stack overflow https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border*/
-
 /* WHY: Used rem for margin to be in line with bootstrap spacing utilities. */
-
 
 
 /*---------------CARDS---------------*/
@@ -322,18 +313,15 @@ a>i:hover,
 
 /*----------FOOTER----------*/
 
-
 footer * a {
     margin-right: 1.3rem;
     margin-left: 1.3rem;
 }
 
-
 a:hover {
     text-decoration: none
 }
-/* WHY: Hover formatting taken from navbar. */
-
+/* WHY: Hover formatting taken applied from navbar. */
 
 /*----------MODAL----------*/
 
@@ -393,6 +381,3 @@ a:hover {
     margin-right: 16.5vw;
     }
 }
-
-
-

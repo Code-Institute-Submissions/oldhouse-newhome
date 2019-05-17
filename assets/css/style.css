@@ -60,6 +60,7 @@ dt>i {
 .shadow--dark {
     text-shadow: 1px 1px black;
 }
+
 /* WHY: Using text shadow to improve readability of text on background--ivy.*/
 
 /*---------------MARGINS & ALIGNMENT---------------*/
@@ -117,6 +118,7 @@ dd {
 }
 
 /* WHERE: Shadow code from https://codepen.io/sdthornton/pen/wBZdXq*/
+
 /* WHERE: Prefixes from https://autoprefixer.github.io/*/
 
 .background--hero {
@@ -127,9 +129,6 @@ dd {
     background: url("../images/ivy3sm.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     text-align: right;
     color: #fff;
@@ -145,7 +144,9 @@ dd {
     background-image: -o-linear-gradient(left, #f4f4f4, #e1e1e1);
     background-image: linear-gradient(to right, #f4f4f4, #e1e1e1);
 }
+
 /* WHERE: Linear-gradient code from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
+
 /* WHERE: Prefixes from https://autoprefixer.github.io/*/
 
 .background--dark {
@@ -153,7 +154,8 @@ dd {
     background-image: -webkit-gradient(linear, left top, right top, from(#313145), to(#313150));
     background-image: -o-linear-gradient(left, #313145, #313150);
     background-image: linear-gradient(to right, #313145, #313150);
-   }
+}
+
 /* WHERE: Prefixes from https://autoprefixer.github.io/*/
 
 .background--stonebox {
@@ -268,8 +270,9 @@ a>i:hover,
     background-image: -o-linear-gradient(#313150, #313145);
     background-image: linear-gradient(#313150, #313145);
     -webkit-box-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
-            box-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
+    box-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
 }
+
 /* WHERE: Prefixes from https://autoprefixer.github.io/*/
 
 .button-style--light {
@@ -285,8 +288,9 @@ a>i:hover,
     background-image: -o-linear-gradient(#f4f4f4, #e1e1e1);
     background-image: linear-gradient(#f4f4f4, #e1e1e1);
     -webkit-box-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
-            box-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
+    box-shadow: 1px 1px 1px rgba(49, 49, 80, 0.3);
 }
+
 /* WHERE: Prefixes from https://autoprefixer.github.io/*/
 
 .button-style:hover {
@@ -359,6 +363,7 @@ a:hover {
     background-image: -o-linear-gradient(left, #313145, #313150);
     background-image: linear-gradient(to right, #313145, #313150);
 }
+
 /* WHERE: Prefixes from https://autoprefixer.github.io/*/
 
 .modal-body * i {

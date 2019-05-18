@@ -189,7 +189,7 @@ gradients)
   * Double border css from [Stack Overflow](https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border)
 
 ### Acknowledgements
-  * This project has been brought to you by Slack. Thanks to all my fellow Slack students! Eternal gratitude to our channel lead Anna, and her mentor Simene, for clearing the fog and pointing us all in the right direction.
+  * This project has been brought to you by Slack. Thanks to all my fellow Slack students! Eternal gratitude to our channel lead Anna, and her mentor Simen, for clearing the fog and pointing us all in the right direction.
   * A special thanks to Jack for giving up some of his laptop time so mam could work on her project.
 
 ### Disclaimer

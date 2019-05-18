@@ -336,7 +336,7 @@ As this is not something covered to date, the following instructions were taken 
   * Home photographs taken by the homeowner.
 
 ### Code
-  * Shadow css from [CodePen](Shadow code from https://codepen.io/sdthornton/pen/wBZdXqgradients)
+  * Shadow css from [CodePen](https://codepen.io/sdthornton/pen/wBZdXqgradients)
   * Linear-gradient css from [w3schools](https://www.w3schools.com/css/css3_gradients.asp)
   * Double border css from [Stack Overflow](https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border)
   * CSS to remove outline from [Stack Overflow](https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4/50668740*/)

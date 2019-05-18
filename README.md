@@ -96,11 +96,13 @@ The look and feel of the website is designed to reflect the look of the home.
 
 5. **Modals** [Bootstrap]( https://getbootstrap.com/docs/4.3/components/modal/) modals allow users view kitchen reviews without having to scroll or leave the page.
 
-6. **Form** A [Bootstrap](https://getbootstrap.com/docs/4.3/components/forms/) contact form allows users send queries directly to the homeowner.
+6. **Progress** The [Bootstrap](https://getbootstrap.com/docs/4.3/components/progress/) progress component allows review information to be represented graphically in modals.
 
-7. **Links** [Bootstrap](https://getbootstrap.com/docs/4.3/components/buttons/) buttons and css formatted text links, allow users readily access supplier websites, social links and a pdf of drawings. 
+7. **Form** A [Bootstrap](https://getbootstrap.com/docs/4.3/components/forms/) form allows users send queries directly to the homeowner.
 
-8. **Positioning** The [Bootstrap](https://etbootstrap.com/docs/4.3/utilities/flex/) flex utility is used to position text.
+8. **Links** [Bootstrap](https://getbootstrap.com/docs/4.3/components/buttons/) buttons and css formatted text links, allow users readily access supplier websites, social links and a pdf of drawings. 
+
+9. **Positioning** The [Bootstrap](https://etbootstrap.com/docs/4.3/utilities/flex/) flex utility is used to position text.
 
 ### Existing Features *Responsiveness*
 
@@ -159,10 +161,10 @@ The website was designed using a mobile first approach. While no information is 
 
 ### Validation
 
-*HTML* 
+**HTML** 
 [W3C Validation Service](https://validator.w3.org/) Used to test the validity of HTML – no errors found.
 
-*CSS*
+**CSS**
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) Used to test the validity of CSS – no errors found.
 
 
@@ -174,102 +176,9 @@ Each of the user stores detailed in UX were tested using various browsers and sc
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **SCREEN SIZE** | **Small** | **Small** | **Medium** | **Large** | **Large** | **Large** | **Large** | **Large** |
 | **USER STORY** | --- | --- | --- | --- | --- | --- | --- | --- |
-| *Extending* | --- | --- | --- | --- | --- | --- | --- | --- |
-| Extend Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| Lightbox Gallery | 1 | 1| 1| 1| 1| 1| 1| 1|
-| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
-| Download Drawings Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| Resicrete Supplier Link | Y | Y | Y | Y | Y | Y | Y | Y |
-| *Downsizing* | --- | --- | --- | --- | --- | --- | ---| --- |
-| Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| YouTube Video | Y | Y | Y | Y | Y | Y | Y | Y |
-| Small Spaces Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
-| Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
-| *Kitchen Remodel* | --- | --- | --- | --- | --- | --- | ---| --- |
-| Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| Carousel | Y | Y | Y | Y | Y | Y | Y | Y |
-| Review Button | Y | Y | Y | 2| Y | Y | Y | Y |
-| Modal Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| *Renovation* | --- | --- | --- | --- | --- | --- | ---| --- |
-| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
-| Favourites Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| Favourites Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
-| --- | --- | --- | --- | --- | --- | --- | ---| --- |
-| *House Hunter* | --- | --- | --- | --- | --- | --- | ---| --- |
-| Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| Favourites Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| Contact Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
-| Download Drawings Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| Favourites Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| Pinterest Social Link | Y | Y | Y | Y | Y | Y | Y | Y |
-
-Y=Passed
-1=Please see Bugs – Fancybox
-2=Please see Bugs – Internet Explorer
-
-
-### Bugs
-
-**Fancybox** On all browsers and screen sizes, Fancybox does not always work properly if you try to swipe rather than use the Fancybox arrows. As this bug could not be fixed, text was added to advise users to use the arrows.
-
-**Internet Explorer** When initially tested on Explorer, kitchen cards had additional heights and favourites cards were out of position. Although amending Bootstrap col classes in favourites cards from “col” to “col-12” fixed the position problem, no fix has been found for the kitchen cards.
-
-**Background-attachment: Fixed** Initially the hero image had both background-attachment: fixed and background-size: cover attributes set. Unfortunately, on any iOS device the image was distorted. The site [CanIUse](https://caniuse.com/#search=background-attachment), recommended by Code Institute tutor support, confirmed the issue. The only fix available did not work on this website so the background-attachment attribute was removed from the hero image.
-
-
-## Deployment
-
-
-## Credits
-
-### Content
-
-  * All text created by the homeowner.
-  * Extension design and architectural drawings by [Colette O’Sullivan (Architectural Technician & Interior Designer)](https://www.linkedin.com/in/colette-o-sullivan-983662a2/).
-
-### Media
-
-  * Hero image from [Drew Beamer - Unsplash](https://unsplash.com/@drew_beamer?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge)
-  * Favicon image from [Pixabay](https://pixabay.com/photos/ivy-ivy-leaf-green-leaf-green-2866933/)
-  * Kitchen product photos from supplier websites:
-   [Silestone](https://www.silestone.com/ie/)
-   [Aarke](https://www.aarke.com/)
-   [Fisher Paykal](https://www.fisherpaykel.com/ie/)
-   [Smeg](https://www.smeg.ie/)
-   [Bosch](https://www.bosch-home.ie/)
-   [Ikea](https://www.ikea.com/ie/en/)
-  * Embedded YouTube video from [TecroStar](https://www.youtube.com/channel/UCm5nGcJY7yw18J1YCWqRAYw) 
-  * Home photographs taken by the homeowner.
-
-### Code
-  * Shadow css from [CodePen](Shadow code from https://codepen.io/sdthornton/pen/wBZdXq
-gradients)
-  * Linear-gradient css from [w3schools](https://www.w3schools.com/css/css3_gradients.asp)
-  * Double border css from [Stack Overflow](https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border)
-  */* WHERE: CSS to remove outline from stack overflow https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4/50668740*/
-
-### Acknowledgements
-  * This project has been brought to you by Slack. Thanks to all my fellow Slack students! Eternal gratitude to our channel lead Anna, and her mentor Simene, for clearing the fog and pointing us all in the right direction.
-  * A special thanks to Jack for giving up some of his laptop time so mam could work on her project.
-
-### Disclaimer
-  * This site is for educational purposes only.
-
-
-
-
-
-| **BROWSER** | **Android** | **iOS** | **iOS** | **Explorer** | **Edge** | **Chrome** | **Firefox** | **Safari** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **SCREEN SIZE** | **Small** | **Small** | **Medium** | **Large** | **Large** | **Large** | **Large** | **Large** |
-| **USER STORY** | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Extending** | --- | --- | --- | --- | --- | --- | --- | --- |
 | Extend Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| Lightbox Gallery | 1 | 1| 1| 1| 1| 1| 1| 1|
+| Lightbox Gallery | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
 | Download Drawings Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | Resicrete Supplier Link | Y | Y | Y | Y | Y | Y | Y | Y |
@@ -278,7 +187,7 @@ gradients)
 | YouTube Video | Y | Y | Y | Y | Y | Y | Y | Y |
 | Small Spaces Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
-| Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
+| Contact Form | Y | Y | 4 | Y | Y | Y | Y | Y |
 | **Kitchen Remodel** | --- | --- | --- | --- | --- | --- | ---| --- |
 | Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Carousel | Y | Y | Y | Y | Y | Y | Y | Y |
@@ -288,7 +197,7 @@ gradients)
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
 | Favourites Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Favourites Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
+| Contact Form | Y | Y | 4 | Y | Y | Y | Y | Y |
 | **House Hunter** | --- | --- | --- | --- | --- | --- | ---| --- |
 | Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
@@ -299,6 +208,16 @@ gradients)
 | Favourites Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | Pinterest Social Link | Y | Y | Y | Y | Y | Y | Y | Y |
 
+Y - Passed
+
+1 2 3 4 - Please see **Bugs**
+
+
+### Manual Site Testing
+
+Throughout the development process, [Chrome Developer Tools]( https://developers.google.com/web/tools/chrome-devtools/) were used to test for responsiveness on various screen sizes. The site was distributed to friends and family for testing on a range of devices. The site has also been reviewed on the Slack Peer Review channel. 
+
+Structured testing of the site was carried out as follows:
 
 | **BROWSER** | **Android** | **iOS** | **Chrome** | 
 | --- | --- | --- | --- | 
@@ -338,7 +257,7 @@ gradients)
 | Favourites Cards Source Buttons | Y | Y | Y |
 | Contact Us Layout | Y | Y | Y | 
 | Contact Us Form Input Types | Y | Y | Y | 
-| Contact Us Form Inputs Required | Y | Y | Y | 
+| Contact Us Form Inputs Required | Y | 4 | Y | 
 | Contact Us Form Submit Button | Y | Y | Y | 
 | Footer Layout | Y | Y | Y | 
 | Footer Social Links Hover | Y | Y | Y | 
@@ -347,7 +266,77 @@ gradients)
 | Footer CoderBeez Link | Y | Y | Y | 
 
 
+Y - Passed
+
+1 2 3 4 - Please see **Bugs**
 
 
+### Bugs
+
+1. **Fancybox** On all browsers and screen sizes, Fancybox does not always work properly if you try to swipe rather than use the Fancybox arrows. As this bug could not be fixed, text was added to advise users to use the arrows.
+
+2. **Internet Explorer** When initially tested on Explorer, kitchen cards had additional heights and favourites cards were out of position. Although amending Bootstrap col classes in favourites cards from “col” to “col-12” fixed the position problem, no fix has been found for the kitchen cards.
+
+3. **Background-Attachment: Fixed** Initially the hero image had both background-attachment: fixed and background-size: cover attributes set. Unfortunately, on any iOS device, the image was distorted. The site [CanIUse](https://caniuse.com/#search=background-attachment), recommended by Code Institute tutor support, confirmed the issue. The only fix available did not work on this website so the background-attachment attribute was removed from the hero image.
+
+4. **Contact Form – Email Field** During testing it was noted the error message on the email field is covered by the keyboard on a ipad in landscape view. No fix has been found.
 
 
+## Deployment
+
+The website was developed in Cloud9, ??? using Git and pushed to the hosting platform GitHub.
+To following steps were taken to deploy to GitHub:
+1. Opened the oldhouse-newhome *repository*.
+2. Ensured the *master branch* was present.
+3. Ensured the *html page* was named *index.html*.
+4. Ensured the *readme.md* had some text.
+5. Clicked the *settings* tab.
+3. Under *github pages* selected *master branch* as *source*.
+5. *”Your site is published at (https://coderbeez.github.io/oldhouse-newhome/)”* became visible in the *github pages* header after approximately 5 minutes.
+
+### Cloning 
+
+As this is not something covered to date, the following instructions were taken from [GitHib Help]( https://help.github.com/en/articles/cloning-a-repository).
+1. Open the [oldhouse-newhome](https://github.com/coderbeez/oldhouse-newhome) repository.
+2. Click the *clone or download* button.
+3. In the *clone with HTTPs* pop-up, click copy icon.
+4. Open *git bash*.
+5. Change the current working directory to where you want the cloned directory to be made.
+6. Type *git clone* and paste the URL copied earlier.
+7. Press *enter*. 
+
+
+## Credits
+
+### Content
+
+  * All text created by the homeowner.
+  * Extension design and architectural drawings by [Colette O’Sullivan (Architectural Technician & Interior Designer)](https://www.linkedin.com/in/colette-o-sullivan-983662a2/).
+
+### Media
+
+  * Hero image from [Drew Beamer - Unsplash](https://unsplash.com/@drew_beamer?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge)
+  * Favicon image from [Pixabay](https://pixabay.com/photos/ivy-ivy-leaf-green-leaf-green-2866933/)
+  * Kitchen product photos from supplier websites:
+   [Silestone](https://www.silestone.com/ie/)
+   [Aarke](https://www.aarke.com/)
+   [Fisher Paykal](https://www.fisherpaykel.com/ie/)
+   [Smeg](https://www.smeg.ie/)
+   [Bosch](https://www.bosch-home.ie/)
+   [Ikea](https://www.ikea.com/ie/en/)
+  * Embedded YouTube video from [TecroStar](https://www.youtube.com/channel/UCm5nGcJY7yw18J1YCWqRAYw) 
+  * Home photographs taken by the homeowner.
+
+### Code
+  * Shadow css from [CodePen](Shadow code from https://codepen.io/sdthornton/pen/wBZdXq
+gradients)
+  * Linear-gradient css from [w3schools](https://www.w3schools.com/css/css3_gradients.asp)
+  * Double border css from [Stack Overflow](https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border)
+  * CSS to remove outline from [Stack Overflow](https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4/50668740*/)
+
+### Acknowledgements
+  * This project has been brought to you by Slack. Thanks to all my fellow Slack students! Eternally grateful to our channel lead Anna, and her mentor Simen, for clearing the fog and pointing us all in the right direction.
+  * A special thanks to Jack for giving up some of his laptop time so mam could work on her project.
+
+### Disclaimer
+  * This site is for educational purposes only.

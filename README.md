@@ -194,8 +194,9 @@ gradients)
 
 ### Disclaimer
   * This site is for educational purposes only.
-  * 
-  | *Browser* | Android | iOS | iOS | Explorer | Edge | Chrome | Firefox | Safari
+
+
+| *Browser* | Android | iOS | iOS | Explorer | Edge | Chrome | Firefox | Safari
 | *Screen Size* | Small | Small | Medium | Large | Large | Large | Large | Large
 --- | --- | --- | --- | --- | --- | --- | --- | ---| ---
 *User Story*| | | | | | | | | 

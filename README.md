@@ -279,7 +279,7 @@ N/A - Not Applicable
 
 1. **Fancybox** When tested, Fancybox did not always work properly if you tried to swipe rather than use the Fancybox arrows. As this bug could not be fixed, text was added to advise users to use the arrows.
 
-2. **Internet Explorer** When tested on Explorer, kitchen cards had additional heights and favourites cards were out of position. Although amending Bootstrap col classes in favourites cards from “col” to “col-12” fixed the position problem, no fix has been found for the kitchen cards.
+2. **Internet Explorer** When tested on Explorer, kitchen cards had additional heights and favourites cards were out of position. Although amending Bootstrap col classes in favourites cards from “col” to “col-12” fixed the position problem, no fix has been found for the kitchen cards. Modal progress bar fonts are slightly lowered in Explorer but reducing their font size improved readability.
 
 3. **Contact Form – Email Field** During testing it was noted that the error message on the email field is covered by the keyboard on an ipad in landscape view. No fix has been found.
 

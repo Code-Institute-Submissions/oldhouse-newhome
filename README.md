@@ -187,7 +187,7 @@ Each of the user stores detailed in UX were tested using various browsers and sc
 | YouTube Video | Y | Y | Y | Y | Y | Y | Y | Y |
 | Small Spaces Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
-| Contact Form | Y | Y | 3 | Y | Y | Y | Y | Y |
+| Contact Form | Y | 4 | 3 | Y | Y | Y | 4 | 4 |
 | **Kitchen Remodel** | --- | --- | --- | --- | --- | --- | ---| --- |
 | Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Carousel | Y | Y | Y | Y | Y | Y | Y | Y |
@@ -197,7 +197,7 @@ Each of the user stores detailed in UX were tested using various browsers and sc
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
 | Favourites Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Favourites Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| Contact Form | Y | Y | 3 | Y | Y | Y | Y | Y |
+| Contact Form | Y | 4 | 3 | Y | Y | Y | 4 | 4 |
 | **House Hunter** | --- | --- | --- | --- | --- | --- | ---| --- |
 | Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
@@ -210,7 +210,7 @@ Each of the user stores detailed in UX were tested using various browsers and sc
 
 Y - Passed
 
-1 2 3 - Please see **Bugs**
+1 2 3 4 - Please see **Bugs**
 
 
 ### Manual Site Testing
@@ -277,9 +277,11 @@ Y - Passed
 
 2. **Internet Explorer** When initially tested on Explorer, kitchen cards had additional heights and favourites cards were out of position. Although amending Bootstrap col classes in favourites cards from “col” to “col-12” fixed the position problem, no fix has been found for the kitchen cards.
 
-3. **Contact Form – Email Field** During testing it was noted the error message on the email field is covered by the keyboard on a ipad in landscape view. No fix has been found.
+3. **Contact Form – Email Field** During testing it was noted that the error message on the email field is covered by the keyboard on a ipad in landscape view. No fix has been found.
 
-4. **Background-Attachment: Fixed** Initially the hero image had both background-attachment: fixed and background-size: cover attributes set. Unfortunately, on any iOS device, the image was distorted. The site [CanIUse](https://caniuse.com/#search=background-attachment), recommended by Code Institute tutor support, confirmed the issue. The only fix available did not work on this website so the background-attachment attribute was removed from the hero image.
+4. **Contact Form - Submit Button** During testing it was noted when the submit button was clicked on some Browsers on some devices it did not clear the form. After carrying out additional testing on device/browser combinations, there doesn't appear to be a consistent bug, eg Chrome on a Dell worked while Chrome on a Mac did not. No fix has been found.
+
+5. **Background-Attachment: Fixed** Initially the hero image had both background-attachment: fixed and background-size: cover attributes set. Unfortunately, on any iOS device, the image was distorted. The site [CanIUse](https://caniuse.com/#search=background-attachment), recommended by Code Institute tutor support, confirmed the issue. The only fix available did not work on this website so the background-attachment attribute was removed from the hero image.
 
 
 

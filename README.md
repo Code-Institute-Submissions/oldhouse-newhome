@@ -1,22 +1,22 @@
 # Old House New Home
 *Milestone 1: User-Centric Frontend Development - Code Institute*
 
-**Old House New Home** has not been designed as a commercial site. It’s aims are twofold: 
+**[Old House New Home](https://coderbeez.github.io/oldhouse-newhome/)** has not been designed as a commercial site. It’s aims are twofold: 
 
 **Homeowner**
-The homeowner’s purchase of an older house coincided with redundancy. Thrown into the role of project manager for the renovation, she now has a gap in her cv. This website aims to fill this gap by documenting the extension and renovation.
+The homeowner’s purchase of an older house coincided with redundancy. Thrown into the role of building project manager, she now has a gap in her cv. This website aims to fill this gap by documenting the extension and renovation.
 
 **Website User**
-As part of the desire for lower carbon lifestyles, we are seeing a move to more urban living. In Ireland, this often means older housing stock and/or smaller units. This website aims to help users breathe new life into their older or smaller homes by providing inspiration, practical tips, useful resource links and a point of contact.
+A move to lower carbon lifestyles and more urban living in Ireland, often means older housing stock and/or smaller units. This website aims to help users breathe new life into their older or smaller homes by providing inspiration, practical tips, useful resource links and a point of contact.
 
 
 ## UX
 
 The website is aimed primarily at Irish home buyers or homeowners starting out on an extension or renovation project. It was designed to address some of the problems the homeowner encountered with similar websites when she started her renovation.
 
-1. **Pinterest** Anyone renovating lives on Pinterest. It’s so much easier to add to your Pinterest baord if the pin icon is included on a web page. In this website the icon is included in the header so it’s always visible.
+1. **Pinterest** Anyone renovating lives on Pinterest. It’s so much easier to add to your Pinterest board if a pin icon is included. On this website the icon is included in the header so it’s always visible.
 
-2. **Suppliers** When you spot something in an online image that’s perfect for your project there’s often no sourcing information. Supplier links are a huge part of this website, both to specific items featured and more general supplier links in the favourites section. 
+2. **Suppliers** When you spot something in an online image that’s perfect for your project, there’s often no sourcing information. Supplier links are a huge part of this website, both to specific items featured and more general supplier links in the favourites section. 
 
 3. **Real Life** Some interior design websites are just that – design sites. The homes featured are not meant to be lived in. This website reflects real life by including reviews and opinions throughout – yes the Smeg looks beautiful but try keeping the surface smudge free!
 
@@ -79,18 +79,18 @@ The look and feel of the website is designed to reflect the look of the home.
   * *Small Spaces:* The small spaces section contains images and related text under five headings. A YouTube video is embedded under one of the headings. 
   * *Kitchen:* The kitchen section contains a carousel of four images, some introductory text and six product images with star ratings. A review button under each product opens a modal with reviews and a supplier link.
   * *Favourites:* The favourites section contains some introductory text followed by six cards showing product images, text and supplier links.
-  * *Contact:* The header hero image and tagline formatting are repeated in the contacts section. The contact form itself contains name, email and query fields and a submit button. All fields are required.
+  * *Contact:* The header hero image and tagline formatting are repeated in the contacts section. The contact form itself contains name, email and query fields followed by a submit button. All fields are required.
 
-4.**Footer Element** The footer element contains social links represented by [Font Awesome](https://fontawesome.com/) icons and a link to the developers GitHub profile. 
+4. **Footer Element** The footer element contains social links represented by icons and a link to the developers GitHub profile. 
 
 
-### Existing Features- Components & Utilities
+### Existing Features *Components & Utilities*
 
-1. **Navbar** The [Bootstrap]( https://getbootstrap.com/docs/4.3/components/navbar/) navbar component with [fixed top](https://getbootstrap.com/docs/4.3/utilities/position/#fixed-top) and collapse](https://getbootstrap.com/docs/4.3/components/collapse/) utilities allow users to always see the navbar.
+1. **Navbar** The [Bootstrap]( https://getbootstrap.com/docs/4.3/components/navbar/) navbar component with [fixed top](https://getbootstrap.com/docs/4.3/utilities/position/#fixed-top) and [collapse](https://getbootstrap.com/docs/4.3/components/collapse/) utilities allow users to always see the navbar best suited to their screen size.
 
 2. **Images** A [Fancy Box](https://fancyapps.com/fancybox/3/) lightbox library and [Bootstrap](https://getbootstrap.com/docs/4.3/components/carousel/) carousel allow users view multiple images without scrolling. A [Pinterest](https://developers.pinterest.com/docs/widgets/save/?) save icon allows users easily add images to their boards. The [Bootstrap]( https://getbootstrap.com/docs/4.3/utilities/borders/) classes of img-thumbnail, rounded-circle and shadow are used to style images throughout the website.
 
-3. **Video** A [Bootstrap](https://getbootstrap.com/docs/4.3/utilities/embed/) embed utility for iframe allows users view a YouTube video without leaving the website. The video can also be easily added to users Pinterest boards using the [Pinterest](https://developers.pinterest.com/docs/widgets/save/?) save icon. 
+3. **Video** A [Bootstrap](https://getbootstrap.com/docs/4.3/utilities/embed/) embed utility for iframe allows users view a YouTube video. The video can also be easily added to users Pinterest boards using the [Pinterest](https://developers.pinterest.com/docs/widgets/save/?) save icon. 
 
 4. **Cards** The [Bootstrap](https://getbootstrap.com/docs/4.3/components/card/) card component is used in both the kitchen and favourites sections, neatly presenting information to users. 
 
@@ -98,11 +98,11 @@ The look and feel of the website is designed to reflect the look of the home.
 
 6. **Form** A [Bootstrap](https://getbootstrap.com/docs/4.3/components/forms/) contact form allows users send queries directly to the homeowner.
 
-7. **Links** [Bootstrap](https://getbootstrap.com/docs/4.3/components/buttons/) buttons and css formatted text links allow users readily access supplier websites, social links and a pdf of drawings. 
+7. **Links** [Bootstrap](https://getbootstrap.com/docs/4.3/components/buttons/) buttons and css formatted text links, allow users readily access supplier websites, social links and a pdf of drawings. 
 
-8. **Position** The [Bootstrap](https://getbootstrap.com/docs/4.3/utilities/flex/) flex utility is used to position text.
+8. **Positioning** The [Bootstrap](https://etbootstrap.com/docs/4.3/utilities/flex/) flex utility is used to position text.
 
-### Existing Features- Responsiveness 
+### Existing Features *Responsiveness*
 
 The website was designed using a mobile first approach. While no information is added or deleted depending on screen size, the order and orientation of some elements does change. Media queries together with the Bootstrap grid system and display classes are used to facilitate this responsiveness.
 
@@ -110,55 +110,52 @@ The website was designed using a mobile first approach. While no information is 
 
 2. **Element Width & Position** The [Bootstrap](https://getbootstrap.com/docs/4.3/layout/grid/) grid system is also used to change the width and position of elements on small, medium and large screens to better display content. 
 
-3. **Navbar** A centred and partially collapsed navbar on small screens, expands and changes alignment on medium and large screens. The [Boostrap](https://getbootstrap.com/docs/4.3/components/collapse/) collapse component facilitates the expand and collapse. Media queries are used to alter the navbar margins for medium and large screens to change . 
+3. **Navbar** A centred and partially collapsed navbar on small screens, expands and changes alignment on medium and large screens. The [Boostrap](https://getbootstrap.com/docs/4.3/components/collapse/) collapse component facilitates the expand and collapse. Media queries are used to alter the navbar margins for medium and large screens and align it with screen contents. 
 
-4. **Tagline** Using [Bootstrap](https://getbootstrap.com/docs/4.3/utilities/display/) display classes, the tagline positioned under the hero images on small screens, is positioned over the hero image on medium and large screens.
+4. **Display** Using [Bootstrap](https://getbootstrap.com/docs/4.3/utilities/display/) display classes:
+   A h1 element with 3 break elements on small screens, is replaced with 2 breaks on medium and large screens.
+   A tagline positioned under the hero images on small screens, is positioned over the hero image on medium and large screens.
+    A floor plan drawing viewed in portrait on small screens, is viewed in landscape on medium and large screens. 
+   A resources aside positioned under the FancyBox lightbox library on small screens, is positioned above and to the right on medium and large screens..
 
-5. **Floor Plan Image** Using [Bootstrap](https://getbootstrap.com/docs/4.3/utilities/display/) display classes, the floor plan drawing viewed in portrait on small screens, is viewed in landscape on medium and large screens. 
+5. **Video & Images** [Bootstrap](https://getbootstrap.com/docs/4.3/utilities/embed/#about) utilities of embed-responsive and img-fluid are used to make both images and embedded iframe responsive.
 
-6. **Resources Aside** Using [Bootstrap](https://getbootstrap.com/docs/4.3/utilities/display/) display classes, the resources aside positioned under the FancyBox lightbox library on small screens, is positioned above and to the right on medium and large screens..
+6. **Margins & Padding** [Bootstrap](https://getbootstrap.com/docs/4.3/utilities/spacing/) spacing utilities are used throughout this website to vary margins and padding by breakpoints.
 
-7. **Video & Images** [Bootstrap](https://getbootstrap.com/docs/4.3/utilities/embed/#about) classes are used to make the images and the embedded iframe responsive.
+7. **Font Size** Media queries are used to change font sizes depending on screen size.
 
-8. **Margins & Padding** [Bootstrap](https://getbootstrap.com/docs/4.3/utilities/spacing/) spacing utilities are used to throughout this website to vary margins and padding by breakpoints.
-
-9. **Font Size** Media queries are used to change font sizes depending on screen size.
-
-10. **REM** REM sizes are used throughout the website to improve responsive.
+8. **REM** REM sizes are used throughout the website to improve responsiveness.
 
 
 ### Future Features 
 
-1. **Projects Page** Creating a separate projects page to document future d.i.y. projects, e.g. building a child’s playhouse in the garden. This would provide a way to encourage repeat visits from users. 
-2. **Product Reviews** Creating more product reviews using a single modal and varying content by button clicked. As referenced on Bootstrap, this requires jquery. 
+1. **Projects Page** Creating a separate projects page to document upcoming d.i.y. projects, e.g. building a child’s playhouse in the garden, would encourage repeat visits.
+2. **Product Reviews** Creating more product reviews but using a single modal and varying content by button clicked requires jquery (referenced on Bootstrap).
 
 
 ## Technologies Used
 
-1. [Balsamiq](https://balsamiq.com/)  A web based gui mockup and website wireframe building application, Balsamiq was used to develop wireframes for the website.
-2. [Microsoft Powerpoint]( https://office.live.com/start/PowerPoint.aspx) – A presentation programme, Microsoft PowerPoint was used to develop mockups and mood boards for the website.
-3. [Microsoft Publisher]( https://www.microsoft.com/en-ie/p/publisher/cfq7ttc0k7c3?=&OCID=AID737190_SEM_et3dNWB5&MarinID=set3dNWB5|340720498529|microsoft+publisher|e|c||62634787164|aud-312771920869:kwd-11150981&lnkd=Google_O365SMB_Mixed&gclid=EAIaIQobChMIrN6k04Kh4gIVxrDtCh0N7QGzEAAYASAAEgJqDfD_BwE&activetab=pivot%3Aoverviewtab) – A desktop publishing application, Microsoft Publisher was used to create the wireframe and drawings pdfs for the website.
-4. [Pinterest](https://www.pinterest.ie/) A social media web based software system designed to enable collecting images and videos, Pinterest was used to collect design inspiration for the website.
-5. [Adobe Photoshop Elements](https://www.adobe.com/ie/) A graphics editor, Adobe Photoshop Elements was used to edit the website images and identify the hex colours in the hero image used for fonts and backgrounds.
+1. [Balsamiq](https://balsamiq.com/)  A web based gui mock-up and website wireframe building application, Balsamiq was used to develop wireframes for the website.
+2. [Microsoft Powerpoint]( https://office.live.com/start/PowerPoint.aspx) A presentation programme, Microsoft PowerPoint was used to develop mock-ups and mood boards for the website.
+3. [Microsoft Publisher]( https://www.microsoft.com/en-ie/p/publisher/cfq7ttc0k7c3?=&OCID=AID737190_SEM_et3dNWB5&MarinID=set3dNWB5|340720498529|microsoft+publisher|e|c||62634787164|aud-312771920869:kwd-11150981&lnkd=Google_O365SMB_Mixed&gclid=EAIaIQobChMIrN6k04Kh4gIVxrDtCh0N7QGzEAAYASAAEgJqDfD_BwE&activetab=pivot%3Aoverviewtab) A desktop publishing application, Microsoft Publisher was used to create the wireframe and drawings pdfs for the website.
+4. [Pinterest](https://www.pinterest.ie/) A social media web-based software system designed to enable collecting images and videos, Pinterest was used to collect design inspiration for the website. The Pinterest [Pin](https://developers.pinterest.com/docs/widgets/save/?) save icon is included on this website to assist users collect images from Old House New Home.
+5. [Adobe Photoshop Elements](https://www.adobe.com/ie/) A graphics editor, Adobe Photoshop Elements was used to edit website images and identify hero image hex colours for fonts and backgrounds.
 6. [Cloud9](https://c9.io/login) An online integrated development environment, Cloud9 was the IDE used for this website.  
-7. [Git](https://git-scm.com/) A distributed version-control system for tracking changes in source code during software development, Git was used to track changes locally in Cloud for this website.
-8. [GitHub](https://github.com/) A web-based hosting service for version control using Git, GitHub was used to host ????
-9. [HTML5](https://www.w3.org/) a software solution stack that defines the properties and behaviours of web page content by implementing a markup based pattern to it, HTML was the language used to write????
-10. [CSS3](https://www.w3.org/) a style sheet language used for describing the presentation of a document written in HTML, CSS was used to apply styles to this websites HTML.
-11. [Bootstrap4](https://getbootstrap.com/) a CSS framework directed at responsive, mobile-first front-end web development, Bootstrap was used extensively in this website for layout, styling and adding functionality.
-12. [Google Fonts](https://fonts.google.com/) a library of free licensed fonts, Google Fonts was used for all fonts on this website.
-13. [Font Awesome](https://fontawesome.com/) a font and icon toolkit, Font Awesome was used to source icons for the navbar menu items, list icons and social icons on this website.
-14. [JQuery](https://jquery.com/) a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax
-15. [JPopper]
-16. [FancyApps Fancybox]( https://fancyapps.com/fancybox/3/) a JavaScript lightbox library for presenting various types of media,  Fancybox was used to display a gallery if images on this website.
-17. [Pinterest Widget](https://developers.pinterest.com/docs/widgets/save/?)
+7. [Git](https://git-scm.com/) A distributed version-control system for tracking changes in code during development, Git was used to track changes in Cloud9 for this website.
+8. [GitHub](https://github.com/) A web-based hosting service for version control using Git, GitHub was used to host the version control system and website content.
+9. [HTML5](https://www.w3.org/) A document mark-up language, HTML was the language used to for this website.
+10. [CSS3](https://www.w3.org/) A style sheet language, CSS was the style sheet used for this website.
+11. [Bootstrap4](https://getbootstrap.com/) A CSS framework directed at responsive, mobile-first front-end web development, Bootstrap is used extensively in this website for layout, styling and adding functionality.
+12. [Google Fonts](https://fonts.google.com/) A library of free licensed fonts, Google Fonts is used for all fonts on this website.
+13. [Font Awesome](https://fontawesome.com/) A font and icon toolkit, Font Awesome is used to source icons for the navbar menu items, lists and social links on this website.
+14. [JQuery](https://jquery.com/) A JavaScript library designed to manipulate HTML documents, JQuery is used by Bootstrap, FancyBox and Pinterest on this website.
+15. [JPopper](https://popper.js.org/) A JavaScript library designed to display content from HTML documents, JPopper is used by Bootstrap on this website.
+16. [FancyApps Fancybox]( https://fancyapps.com/fancybox/3/) A JavaScript lightbox library for presenting various types of media, Fancybox is used to display a gallery of images on this website.
 
 **Technology explanations from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)**
 
 
 ## Testing
-[Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/)
-allow web developers to test and debug their code
 
 
 ## Deployment
@@ -168,7 +165,7 @@ allow web developers to test and debug their code
 
 ### Content
 
-  * All text created by the homeowner and edited by [Enzo Consulting](https://www.enzoconsultancy.com/).
+  * All text created by the homeowner.
   * Extension design and architectural drawings by [Colette O’Sullivan (Architectural Technician & Interior Designer)](https://www.linkedin.com/in/colette-o-sullivan-983662a2/).
 
 ### Media
@@ -186,13 +183,13 @@ allow web developers to test and debug their code
   * Home photographs taken by the homeowner.
 
 ### Code
-  * Shadow code from [CodePen](Shadow code from https://codepen.io/sdthornton/pen/wBZdXq
+  * Shadow css from [CodePen](Shadow code from https://codepen.io/sdthornton/pen/wBZdXq
 gradients)
-  * Linear-gradient code from [w3schools](https://www.w3schools.com/css/css3_gradients.asp)
+  * Linear-gradient css from [w3schools](https://www.w3schools.com/css/css3_gradients.asp)
   * Double border css from [Stack Overflow](https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border)
 
 ### Acknowledgements
-  * This project has been brought to you by Slack. Thanks to all my fellow Slack students! Eternal gratitude to our channel lead Anna, Mother of Zeus, and her mentor Simene, for clearing the fog and pointing us all in the right direction.
+  * This project has been brought to you by Slack. Thanks to all my fellow Slack students! Eternal gratitude to our channel lead Anna, and her mentor Simene, for clearing the fog and pointing us all in the right direction.
   * A special thanks to Jack for giving up some of his laptop time so mam could work on her project.
 
 ### Disclaimer

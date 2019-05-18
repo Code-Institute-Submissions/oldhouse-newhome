@@ -27,7 +27,7 @@ User stories for potential visitors to the website include:
 
 1. **Extending** *I’m looking to extend an existing property.*
 
-I need to come up with a brief for my architect detailing my needs and design preferences. I visit the *extend* section of the website and see a clear list of design considerations, sample drawings and supplier links. I add a selection of images to my Pinterest page using the *Pinterest save icon* which I can share with my architect. I download and print the drawings using the *download drawings button* to sketch my ideas over. I visit one of the *supplier links*, Resicrete, as I have not considered resin flooring and the homeowner notes it as budget friendly.
+I need to come up with a brief for my architect detailing my needs and design preferences. I visit the *extend* section of the website and see a clear list of design considerations, sample drawings and supplier links. I open the lightbox and view images in a larger format as I’m on a mobile. I add a selection of images to my Pinterest page using the *Pinterest save icon* which I can share with my architect. I download and print the drawings using the *download drawings button* to sketch my ideas over. I visit one of the *supplier links*, Resicrete, as I have not considered resin flooring and the homeowner notes it as budget friendly.
 
 
 2. **Downsizing** *I’m looking to downsize to a smaller space.*
@@ -47,7 +47,7 @@ After recently closing on a house purchase, I’m looking to plan the renovation
 
 5. **House Hunting** *I’m currently house hunting.*
 
-I need some inspiration to help me see the potential in the properties I’m viewing. I visit all sections of the website. I save several images to my Pinterest page using the *Pinterest save icon*. I download the drawings using *download drawings* button. I visit some of the supplier links using the *source buttons*.
+I need some inspiration to help me see the potential in the properties I’m viewing. I visit all sections of the website. I save several images to my Pinterest page using the *Pinterest save icon*. I download the drawings using *download drawings* button. I visit some of the supplier links using the *source buttons* in the favourites section. I click on the *Pinterest social icon* to view the homeowners boards.
 
 
 ### Design
@@ -157,6 +157,69 @@ The website was designed using a mobile first approach. While no information is 
 
 ## Testing
 
+### Validation
+
+*HTML* 
+[W3C Validation Service](https://validator.w3.org/) Used to test the validity of HTML – no errors found.
+
+*CSS*
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) Used to test the validity of CSS – no errors found.
+
+
+### User Stories
+
+Each of the user stores detailed in UX were tested using various browsers and screens sizes as follows:
+
+| **BROWSER** | **Android** | **iOS** | **iOS** | **Explorer** | **Edge** | **Chrome** | **Firefox** | **Safari** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **SCREEN SIZE** | **Small** | **Small** | **Medium** | **Large** | **Large** | **Large** | **Large** | **Large** |
+| **USER STORY** | --- | --- | --- | --- | --- | --- | --- | --- |
+| *Extending* | --- | --- | --- | --- | --- | --- | --- | --- |
+| Extend Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Lightbox Gallery | 1 | 1| 1| 1| 1| 1| 1| 1|
+| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
+| Download Drawings Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| Resicrete Supplier Link | Y | Y | Y | Y | Y | Y | Y | Y |
+| *Downsizing* | --- | --- | --- | --- | --- | --- | ---| --- |
+| Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| YouTube Video | Y | Y | Y | Y | Y | Y | Y | Y |
+| Small Spaces Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
+| Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
+| *Kitchen Remodel* | --- | --- | --- | --- | --- | --- | ---| --- |
+| Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Carousel | Y | Y | Y | Y | Y | Y | Y | Y |
+| Review Button | Y | Y | Y | 2| Y | Y | Y | Y |
+| Modal Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| *Renovation* | --- | --- | --- | --- | --- | --- | ---| --- |
+| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
+| Favourites Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Favourites Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
+| --- | --- | --- | --- | --- | --- | --- | ---| --- |
+| *House Hunter* | --- | --- | --- | --- | --- | --- | ---| --- |
+| Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Favourites Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Contact Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
+| Download Drawings Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| Favourites Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| Pinterest Social Link | Y | Y | Y | Y | Y | Y | Y | Y |
+
+Y=Passed
+1=Please see Bugs – Fancybox
+2=Please see Bugs – Internet Explorer
+
+
+### Bugs
+
+**Fancybox** On all browsers and screen sizes, Fancybox does not always work properly if you try to swipe rather than use the Fancybox arrows. As this bug could not be fixed, text was added to advise users to use the arrows.
+
+**Internet Explorer** When initially tested on Explorer, kitchen cards had additional heights and favourites cards were out of position. Although amending Bootstrap col classes in favourites cards from “col” to “col-12” fixed the position problem, no fix has been found for the kitchen cards.
+
+**Background-attachment: Fixed** Initially the hero image had both background-attachment: fixed and background-size: cover attributes set. Unfortunately, on any iOS device the image was distorted. The site [CanIUse](https://caniuse.com/#search=background-attachment), recommended by Code Institute tutor support, confirmed the issue. The only fix available did not work on this website so the background-attachment attribute was removed from the hero image.
+
 
 ## Deployment
 
@@ -173,12 +236,12 @@ The website was designed using a mobile first approach. While no information is 
   * Hero image from [Drew Beamer - Unsplash](https://unsplash.com/@drew_beamer?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge)
   * Favicon image from [Pixabay](https://pixabay.com/photos/ivy-ivy-leaf-green-leaf-green-2866933/)
   * Kitchen product photos from supplier websites:
-   [Silestone Worktop](https://www.silestone.com/ie/)
-   [Aarke Carbonator](https://www.aarke.com/)
-   [Fisher Paykal Fridge](https://www.fisherpaykel.com/ie/)
-   [Smeg Cooker](https://www.smeg.ie/)
-   [Bosch Microwave](https://www.bosch-home.ie/)
-   [Ikea Sink](https://www.ikea.com/ie/en/)
+   [Silestone](https://www.silestone.com/ie/)
+   [Aarke](https://www.aarke.com/)
+   [Fisher Paykal](https://www.fisherpaykel.com/ie/)
+   [Smeg](https://www.smeg.ie/)
+   [Bosch](https://www.bosch-home.ie/)
+   [Ikea](https://www.ikea.com/ie/en/)
   * Embedded YouTube video from [TecroStar](https://www.youtube.com/channel/UCm5nGcJY7yw18J1YCWqRAYw) 
   * Home photographs taken by the homeowner.
 
@@ -187,13 +250,15 @@ The website was designed using a mobile first approach. While no information is 
 gradients)
   * Linear-gradient css from [w3schools](https://www.w3schools.com/css/css3_gradients.asp)
   * Double border css from [Stack Overflow](https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border)
+  */* WHERE: CSS to remove outline from stack overflow https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4/50668740*/
 
 ### Acknowledgements
-  * This project has been brought to you by Slack. Thanks to all my fellow Slack students! Eternal gratitude to our channel lead Anna, and her mentor Simen, for clearing the fog and pointing us all in the right direction.
+  * This project has been brought to you by Slack. Thanks to all my fellow Slack students! Eternal gratitude to our channel lead Anna, and her mentor Simene, for clearing the fog and pointing us all in the right direction.
   * A special thanks to Jack for giving up some of his laptop time so mam could work on her project.
 
 ### Disclaimer
   * This site is for educational purposes only.
+
 
 
 
@@ -204,19 +269,36 @@ gradients)
 | **USER STORY** | --- | --- | --- | --- | --- | --- | --- | --- |
 | *Extending* | --- | --- | --- | --- | --- | --- | --- | --- |
 | Extend Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Lightbox Gallery | 1 | 1| 1| 1| 1| 1| 1| 1|
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
 | Download Drawings Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | Resicrete Supplier Link | Y | Y | Y | Y | Y | Y | Y | Y |
 | *Downsizing* | --- | --- | --- | --- | --- | --- | ---| --- |
 | Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | YouTube Video | Y | Y | Y | Y | Y | Y | Y | Y |
+| Small Spaces Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
 | Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
 | *Kitchen Remodel* | --- | --- | --- | --- | --- | --- | ---| --- |
 | Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Carousel | Y | Y | Y | Y | Y | Y | Y | Y |
-| Review Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| Review Button | Y | Y | Y | 2| Y | Y | Y | Y |
 | Modal Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| *Renovation* | --- | --- | --- | --- | --- | --- | ---| --- |
+| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
+| Favourites Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Favourites Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
 | --- | --- | --- | --- | --- | --- | --- | ---| --- |
+| *House Hunter* | --- | --- | --- | --- | --- | --- | ---| --- |
+| Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Favourites Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Contact Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
+| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
+| Download Drawings Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| Favourites Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| Pinterest Social Link | Y | Y | Y | Y | Y | Y | Y | Y |
+
 
 

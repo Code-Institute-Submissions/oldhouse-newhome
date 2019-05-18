@@ -301,4 +301,55 @@ gradients)
 | Pinterest Social Link | Y | Y | Y | Y | Y | Y | Y | Y |
 
 
+| **BROWSER** | **Android** | **iOS** | **Chrome** | 
+| --- | --- | --- | --- | 
+| **SCREEN SIZE** | **Small** | **Medium** | **Large** | 
+| *Extending* | --- | --- | --- |
+| Favicon | Y | N/A | Y | 
+| Navbar Hover | N/A | N/A | Y | 
+| Navbar Collapse | Y | N/A | N/A | 
+| Navbar Links | Y | Y | Y | 
+| Navbar Pinterest| Y | Y | Y |
+| Header H1 Font Size | Y | Y | Y | 
+| Header H1 Breaks | Y | Y | Y | 
+| Header Tagline Position | Y | Y | Y | 
+| Header Tagline Font Size | N/A | Y | Y | 
+| Intro Tagline Position| Y | N/A | N/A | 
+| Intro Tagline Font Size| Y | N/A | N/A | 
+| EXtend H2 Font Size  | Y | Y | Y |
+| EXtend Floor Plan Orientation  | Y | Y | Y |
+| EXtend Design Dilema H3 Font Size  | Y | Y | Y |
+| EXtend Lightbox | 1 | 1 | 1 | 
+| EXtend Resources Position | Y | Y | Y |
+| Extend Resources Links Hover | Y | Y | Y |
+| Extend Resources Links | Y | Y | Y |
+| Extend Resources Download Drawings Button Hover | Y | Y | Y | 
+| Extend Resources Download Drawings Button | Y | Y | Y | 
+| Small Spaces Layout | Y | Y | Y |
+| Small Spaces Source Buttons | Y | Y | Y | 
+| Small Spaces Video  | Y | Y | Y |
+| Kitchen Carousel | Y | Y | Y | 
+| Kitchen Cards Layout | Y | Y | Y | 
+| Kitchen Cards | Y | Y | Y | 
+| Kitchen Cards Review Buttons | Y | Y | Y | 
+| Kitchen Modals | Y | Y | Y | 
+| Kitchen Modal Source Button | Y | Y | Y | 
+| Kitchen Modal Close Button | Y | Y | Y | 
+| Favourites Cards Layout | Y | Y | Y |
+| Favourites Cards | Y | Y | Y |
+| Favourites Cards Source Buttons | Y | Y | Y |
+| Contact Us Layout | Y | Y | Y | 
+| Contact Us Form Input Types | Y | Y | Y | 
+| Contact Us Form Input Required | Y | Y | Y | 
+| Contact Us Form Submit Button | Y | Y | Y | 
+| Footer Layout | Y | Y | Y | 
+| Footer Social Links Hover | Y | Y | Y | 
+| Footer Social Links | Y | Y | Y | 
+| Footer CoderBeez Link Hover | Y | Y | Y | 
+| Footer CoderBeez Link | Y | Y | Y | 
+
+
+
+
+
 

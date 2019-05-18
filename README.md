@@ -199,7 +199,7 @@ gradients)
 
 
 | **BROWSER** | **Android** | **iOS** | **iOS** | **Explorer** | **Edge** | **Chrome** | **Firefox** | **Safari** |
-|  |  |  |  |  |  |  | |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **SCREEN SIZE** | **Small** | **Small** | **Medium** | **Large** | **Large** | **Large** | **Large** | **Large** |
 | **USER STORY** | --- | --- | --- | --- | --- | --- | --- | --- |
 | *Extending* | --- | --- | --- | --- | --- | --- | --- | --- |

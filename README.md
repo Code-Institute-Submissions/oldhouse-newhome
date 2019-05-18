@@ -198,33 +198,24 @@ gradients)
 
 
 
-| *Browser* | Android | iOS | iOS | Explorer | Edge | Chrome | Firefox | Safari |
+| --- | *Browser* | Android | iOS | iOS | Explorer | Edge | Chrome | Firefox | Safari |
 | --- | --- | --- | --- | --- | --- | --- | --- | ---| --- |
-| *Screen Size* | Small | Small | Medium | Large | Large | Large | Large | Large |
-| *User Story* | | | | | | | | | 
+| --- | *Screen Size* | Small | Small | Medium | Large | Large | Large | Large | Large |
+| *User Story* | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | Extending | Extend Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
-| Download Drawings Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| Resicrete Supplier Link | Y | Y | Y | Y | Y | Y | Y | Y |
+| --- | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
+| --- | Download Drawings Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| --- | Resicrete Supplier Link | Y | Y | Y | Y | Y | Y | Y | Y |
 | --- | --- | --- | --- | --- | --- | --- | --- | ---| --- |
 | Downsizing | Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| YouTube Video | Y | Y | Y | Y | Y | Y | Y | Y |
-| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
-| Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
-| --- | --- | --- | --- | --- | --- | --- | --- | ---| --- |
-| Downsizing | Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| YouTube Video | Y | Y | Y | Y | Y | Y | Y | Y |
-| Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
-| Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
+| --- | YouTube Video | Y | Y | Y | Y | Y | Y | Y | Y |
+| --- | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
+| --- | Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
 | --- | --- | --- | --- | --- | --- | --- | --- | ---| --- |
 | Kitchen Remodel | Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| Carousel | Y | Y | Y | Y | Y | Y | Y | Y |
-| Review Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| Modal Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| --- | Carousel | Y | Y | Y | Y | Y | Y | Y | Y |
+| --- | Review Button | Y | Y | Y | Y | Y | Y | Y | Y |
+| --- | Modal Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | --- | --- | --- | --- | --- | --- | --- | --- | ---| --- |
-| Kitchen Remodel | Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y |  |
-| Carousel | Y | Y | Y | Y | Y | Y | Y | Y |
-| Review Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| Modal Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
 
 

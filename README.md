@@ -94,9 +94,9 @@ The look and feel of the website is designed to reflect the look of the home.
 
 4. **Cards** The [Bootstrap](https://getbootstrap.com/docs/4.3/components/card/) card component is used in both the kitchen and favourites sections, neatly presenting information to users. 
 
-5. **Modals** [Bootstrap]( https://getbootstrap.com/docs/4.3/components/modal/) modals allow users view kitchen reviews without having to scroll or leave the page.
+5. **Modals** [Bootstrap]( https://getbootstrap.com/docs/4.3/components/modal/) modals allow users view kitchen product reviews without having to scroll or leave the page.
 
-6. **Progress** The [Bootstrap](https://getbootstrap.com/docs/4.3/components/progress/) progress component allows review information to be represented graphically in modals.
+6. **Progress** The [Bootstrap](https://getbootstrap.com/docs/4.3/components/progress/) progress component allows kitchen product review information to be represented graphically in the modals.
 
 7. **Form** A [Bootstrap](https://getbootstrap.com/docs/4.3/components/forms/) form allows users send queries directly to the homeowner.
 
@@ -178,7 +178,7 @@ Each of the user stores detailed in UX were tested using various browsers and sc
 | **USER STORY** | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Extending** | --- | --- | --- | --- | --- | --- | --- | --- |
 | Extend Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
-| Lightbox Gallery | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Lightbox Gallery | 1 | 1 | 1 | Y | Y | Y | Y | Y |
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
 | Download Drawings Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | Resicrete Supplier Link | Y | Y | Y | Y | Y | Y | Y | Y |
@@ -222,7 +222,7 @@ Structured testing of the site was carried out as follows:
 | **BROWSER** | **Android** | **iOS** | **Chrome** | 
 | --- | --- | --- | --- | 
 | **SCREEN SIZE** | **Small** | **Medium** | **Large** | 
-| Favicon | Y | N/A | Y | 
+| Favicon | N/A | N/A | Y | 
 | Navbar Hover | N/A | N/A | Y | 
 | Navbar Collapse | Y | N/A | N/A | 
 | Navbar Links | Y | Y | Y | 
@@ -236,7 +236,7 @@ Structured testing of the site was carried out as follows:
 | Extend H2 Font Size  | Y | Y | Y |
 | Extend Floor Plan Orientation  | Y | Y | Y |
 | Extend Design Dilema H3 Font Size  | Y | Y | Y |
-| Extend Lightbox | 1 | 1 | 1 | 
+| Extend Lightbox | 1 | 1 | Y | 
 | Extend Resources Position | Y | Y | Y |
 | Extend Resources Links Hover | Y | Y | Y |
 | Extend Resources Links | Y | Y | Y |
@@ -273,13 +273,13 @@ Y - Passed
 
 ### Bugs
 
-1. **Fancybox** On all browsers and screen sizes, Fancybox does not always work properly if you try to swipe rather than use the Fancybox arrows. As this bug could not be fixed, text was added to advise users to use the arrows.
+1. **Fancybox** When tested, Fancybox did not always work properly if you tried to swipe rather than use the Fancybox arrows. As this bug could not be fixed, text was added to advise users to use the arrows.
 
-2. **Internet Explorer** When initially tested on Explorer, kitchen cards had additional heights and favourites cards were out of position. Although amending Bootstrap col classes in favourites cards from “col” to “col-12” fixed the position problem, no fix has been found for the kitchen cards.
+2. **Internet Explorer** When tested on Explorer, kitchen cards had additional heights and favourites cards were out of position. Although amending Bootstrap col classes in favourites cards from “col” to “col-12” fixed the position problem, no fix has been found for the kitchen cards.
 
-3. **Contact Form – Email Field** During testing it was noted that the error message on the email field is covered by the keyboard on a ipad in landscape view. No fix has been found.
+3. **Contact Form – Email Field** During testing it was noted that the error message on the email field is covered by the keyboard on an ipad in landscape view. No fix has been found.
 
-4. **Contact Form - Submit Button** During testing it was noted when the submit button was clicked on some Browsers on some devices it did not clear the form. After carrying out additional testing on device/browser combinations, there doesn't appear to be a consistent bug, eg Chrome on a Dell worked while Chrome on a Mac did not. No fix has been found.
+4. **Contact Form - Submit Button** During testing it was noted that when the submit button was clicked on some browser/device combinations it did not clear the form. After carrying out additional testing on device/browser combinations, there wasn't consistency, eg Chrome on a Dell worked while Chrome on a Mac did not. No fix has been found.
 
 5. **Background-Attachment: Fixed** Initially the hero image had both background-attachment: fixed and background-size: cover attributes set. Unfortunately, on any iOS device, the image was distorted. The site [CanIUse](https://caniuse.com/#search=background-attachment), recommended by Code Institute tutor support, confirmed the issue. The only fix available did not work on this website so the background-attachment attribute was removed from the hero image.
 
@@ -332,8 +332,7 @@ As this is not something covered to date, the following instructions were taken 
   * Home photographs taken by the homeowner.
 
 ### Code
-  * Shadow css from [CodePen](Shadow code from https://codepen.io/sdthornton/pen/wBZdXq
-gradients)
+  * Shadow css from [CodePen](Shadow code from https://codepen.io/sdthornton/pen/wBZdXqgradients)
   * Linear-gradient css from [w3schools](https://www.w3schools.com/css/css3_gradients.asp)
   * Double border css from [Stack Overflow](https://stackoverflow.com/questions/21074202/create-a-button-with-a-double-border)
   * CSS to remove outline from [Stack Overflow](https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4/50668740*/)

@@ -357,7 +357,8 @@ a:hover {
 
 .progress-bar {
     text-align: left;
-    font-size: 1.1rem;
+    font-size: .8rem;
+    color: yellow;
     padding: 10px;
     background-image: -webkit-gradient(linear, left top, right top, from(#313145), to(#313150));
     background-image: -webkit-linear-gradient(left, #313145, #313150);

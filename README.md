@@ -284,9 +284,9 @@ Y - Passed
 
 
 
-## Deployment
+### Deployment
 
-The website was developed in Cloud9, ??? using Git and pushed to the hosting platform GitHub.
+The website was developed in Cloud9, stored in Git and pushed to the hosting platform GitHub.
 To following steps were taken to deploy to GitHub:
 1. Opened the oldhouse-newhome *repository*.
 2. Ensured the *master branch* was present.
@@ -301,7 +301,7 @@ To following steps were taken to deploy to GitHub:
 As this is not something covered to date, the following instructions were taken from [GitHib Help]( https://help.github.com/en/articles/cloning-a-repository).
 1. Open the [oldhouse-newhome](https://github.com/coderbeez/oldhouse-newhome) repository.
 2. Click the *clone or download* button.
-3. In the *clone with HTTPs* pop-up, click copy icon.
+3. In the *clone with HTTPs* pop-up, click the copy icon.
 4. Open *git bash*.
 5. Change the current working directory to where you want the cloned directory to be made.
 6. Type *git clone* and paste the URL copied earlier.

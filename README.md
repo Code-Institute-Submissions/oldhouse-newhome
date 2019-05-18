@@ -267,30 +267,29 @@ gradients)
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **SCREEN SIZE** | **Small** | **Small** | **Medium** | **Large** | **Large** | **Large** | **Large** | **Large** |
 | **USER STORY** | --- | --- | --- | --- | --- | --- | --- | --- |
-| *Extending* | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Extending** | --- | --- | --- | --- | --- | --- | --- | --- |
 | Extend Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Lightbox Gallery | 1 | 1| 1| 1| 1| 1| 1| 1|
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
 | Download Drawings Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | Resicrete Supplier Link | Y | Y | Y | Y | Y | Y | Y | Y |
-| *Downsizing* | --- | --- | --- | --- | --- | --- | ---| --- |
+| **Downsizing** | --- | --- | --- | --- | --- | --- | ---| --- |
 | Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | YouTube Video | Y | Y | Y | Y | Y | Y | Y | Y |
 | Small Spaces Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
 | Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
-| *Kitchen Remodel* | --- | --- | --- | --- | --- | --- | ---| --- |
+| **Kitchen Remodel** | --- | --- | --- | --- | --- | --- | ---| --- |
 | Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Carousel | Y | Y | Y | Y | Y | Y | Y | Y |
 | Review Button | Y | Y | Y | 2| Y | Y | Y | Y |
 | Modal Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| *Renovation* | --- | --- | --- | --- | --- | --- | ---| --- |
+| **Renovation** | --- | --- | --- | --- | --- | --- | ---| --- |
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
 | Favourites Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Favourites Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | Contact Form | Y | Y | Y | Y | Y | Y | Y | Y |
-| --- | --- | --- | --- | --- | --- | --- | ---| --- |
-| *House Hunter* | --- | --- | --- | --- | --- | --- | ---| --- |
+| **House Hunter** | --- | --- | --- | --- | --- | --- | ---| --- |
 | Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Favourites Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |

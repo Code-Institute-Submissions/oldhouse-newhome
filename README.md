@@ -210,6 +210,8 @@ Each of the user stores detailed in UX were tested using various browsers and sc
 
 Y - Passed
 
+N/A - Not Applicable
+
 1 2 3 4 - Please see **Bugs**
 
 
@@ -238,9 +240,9 @@ Structured testing of the site was carried out as follows:
 | Extend Design Dilema H3 Font Size  | Y | Y | Y |
 | Extend Lightbox | 1 | 1 | Y | 
 | Extend Resources Position | Y | Y | Y |
-| Extend Resources Links Hover | Y | Y | Y |
+| Extend Resources Links Hover | N/A | N/A | Y |
 | Extend Resources Links | Y | Y | Y |
-| Extend Resources Download Drawings Button Hover | Y | Y | Y | 
+| Extend Resources Download Drawings Button Hover | N/A | N/A | Y | 
 | Extend Resources Download Drawings Button | Y | Y | Y | 
 | Small Spaces Layout | Y | Y | Y |
 | Small Spaces Source Buttons | Y | Y | Y | 
@@ -260,13 +262,15 @@ Structured testing of the site was carried out as follows:
 | Contact Us Form Inputs Required | Y | 3 | Y | 
 | Contact Us Form Submit Button | Y | Y | Y | 
 | Footer Layout | Y | Y | Y | 
-| Footer Social Links Hover | Y | Y | Y | 
+| Footer Social Links Hover | N/A | N/A | Y | 
 | Footer Social Links | Y | Y | Y | 
-| Footer CoderBeez Link Hover | Y | Y | Y | 
+| Footer CoderBeez Link Hover | N/A | N/A | Y | 
 | Footer CoderBeez Link | Y | Y | Y | 
 
 
 Y - Passed
+
+N/A - Not Applicable
 
 1 2 3 - Please see **Bugs**
 

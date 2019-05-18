@@ -24,7 +24,6 @@
             <div class="col-12">
                 <nav class="navbar navbar-expand-md fixed-top justify-content-center">
                     <!-- WHY: Bootstrap margins used to vary margins for smaller screens.-->
-                    <!-- FIX: JUSTIFY.-->
                     <a class="navbar-brand ml-1" href="#home"><i class="fas fa-home" aria-hidden="true"></i><span class="sr-only">home link</span></a>
                     <a class="navbar-brand" href="#contact"><i class="fas fa-envelope" aria-hidden="true"></i><span class="sr-only">contact link</span></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,7 +63,7 @@
     <main>
         <!--INTRO-->
         <div class="container-fluid">
-            <!--WHY: NO HEADER!!!!!!!!!!!!!!!!!!!!!!!!!!!.-->
+            <!--WHY: Div used rather than section as no header element.-->
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-8 wrap background--stone">
                     <div class="row justify-content-center mt-5 mb-5">
@@ -82,7 +81,7 @@
 
         <!--EXTEND-->
         <section class="container-fluid" id="extend">
-            <!--WHY: Used section for extend as ?????????????.-->
+            <!--WHY: Used section for extend as division within page containing h2 element. Approach repeated throughout site.-->
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-8 wrap background--light">
                     <div class="row">
@@ -122,7 +121,7 @@
                                 <dt><i class="fas fa-euro-sign"> </i>Budget</dt>
                                 <dd>To keep within budget, we’ve used a simple mono-pitch design with a metal roof solution and installed resin flooring throughout.</dd>
                             </dl>
-                            <!-- WHY: FontAwesome icons used improve readibility. No aria used as dt explains icon.-->
+                            <!-- WHY: FontAwesome icons used to improve readibility. No aria used as dt explains icon.-->
                         </div>
                         <aside class="d-none d-md-block col-md-6 text-center pl-md-4 pr-md-4">
                             <div class="background--stonebox">
@@ -300,7 +299,7 @@
                     </div>
                     <div class="row justify-content-center border-color--transparent">
                         <!-- WHY: Border color transparent used to overwrite Bootstraps default formatting.-->
-                        <!-- WHY: Could not use Bootstrap card decks as cards accross columns. Used both header and footer and not body as resulted in best alignment when card decks were not an option. This approach caused gap in Internet Explorer where bosy should be.-->
+                        <!-- WHY: Could not use Bootstrap card decks as cards across columns. Used both header and footer and not body as resulted in best alignment when card decks were not an option. This approach caused gap in Internet Explorer where bosy should be.-->
                         <!--CARD1-->
                         <div class="card col-6 col-md-4 col-lg-2 p-1">
                             <!-- WHY: Bootstrap padding used to overwrite default padding to keep text on single line on ipads in landscape.-->
@@ -386,9 +385,7 @@
                                 <button type="button" class="btn button-style" data-toggle="modal" data-target="#r-sink">review</button>
                             </div>
                         </div>
-                        <!--/CARD-->
                     </div>
-                    <!--/BOOTSTRAP CAROUSEL-->
                 </div>
             </div>
         </section>
@@ -503,7 +500,6 @@
 
         <!--CONTACT-->
         <section class="container-fluid" id="contact">
-            <!--WHY: Used section for intro as would not make sense on it own.-->
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-8 wrap">
                     <div class="row">
@@ -556,7 +552,7 @@
                     </div>
                     <div class="col-12 text-center mt-3">
                         <a href="https://github.com/coderbeez" target="_blank" class="a-style mb-1">site designed by coderbeez</a>
-                        <!-- WHY: Used Bootstrap margin bottom to overwrite a-style.-->
+                        <!-- WHY: Used Bootstrap margin bottom to overwrite owm margin in css a-style.-->
                     </div>
                     <div class="col-12 text-center">
                         <span>always play nice :)</span>
@@ -602,8 +598,7 @@
         </div>
     </div>
     <!-- WHERE: Bootstrap modal.-->
-    <!-- /Modal -->
-
+    
     <!-- Modal2 -->
     <div class="modal fade" id="r-water" tabindex="-1" role="dialog" aria-labelledby="reviewCarbonator" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -638,9 +633,7 @@
             </div>
         </div>
     </div>
-    <!-- WHERE: Bootstrap modal.-->
-    <!-- /Modal -->
-
+    
     <!-- Modal3 -->
     <div class="modal fade" id="r-fridge" tabindex="-1" role="dialog" aria-labelledby="reviewFridge" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -675,9 +668,7 @@
             </div>
         </div>
     </div>
-    <!-- WHERE: Bootstrap modal.-->
-    <!-- /Modal -->
-
+   
     <!-- Modal4 -->
     <div class="modal fade" id="r-cooker" tabindex="-1" role="dialog" aria-labelledby="reviewCooker" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -712,9 +703,7 @@
             </div>
         </div>
     </div>
-    <!-- WHERE: Bootstrap modal.-->
-    <!-- /Modal -->
-
+ 
     <!-- Modal5 -->
     <div class="modal fade" id="r-micro" tabindex="-1" role="dialog" aria-labelledby="reviewMicrowave" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -749,8 +738,6 @@
             </div>
         </div>
     </div>
-    <!-- WHERE: Bootstrap modal.-->
-    <!-- /Modal -->
 
     <!-- Modal6 -->
     <div class="modal fade" id="r-sink" tabindex="-1" role="dialog" aria-labelledby="reviewSink" aria-hidden="true">
@@ -784,8 +771,6 @@
             </div>
         </div>
     </div>
-    <!-- WHERE: Bootstrap modal.-->
-    <!-- /Modal -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

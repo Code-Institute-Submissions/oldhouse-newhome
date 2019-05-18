@@ -187,7 +187,7 @@ Each of the user stores detailed in UX were tested using various browsers and sc
 | YouTube Video | Y | Y | Y | Y | Y | Y | Y | Y |
 | Small Spaces Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
-| Contact Form | Y | Y | 4 | Y | Y | Y | Y | Y |
+| Contact Form | Y | Y | 3 | Y | Y | Y | Y | Y |
 | **Kitchen Remodel** | --- | --- | --- | --- | --- | --- | ---| --- |
 | Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Carousel | Y | Y | Y | Y | Y | Y | Y | Y |
@@ -197,7 +197,7 @@ Each of the user stores detailed in UX were tested using various browsers and sc
 | Pinterest Save Icon | Y | Y | Y | Y | Y | Y | Y | Y |
 | Favourites Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Favourites Source Button | Y | Y | Y | Y | Y | Y | Y | Y |
-| Contact Form | Y | Y | 4 | Y | Y | Y | Y | Y |
+| Contact Form | Y | Y | 3 | Y | Y | Y | Y | Y |
 | **House Hunter** | --- | --- | --- | --- | --- | --- | ---| --- |
 | Small Spaces Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
 | Kitchen Menu Item | Y | Y | Y | Y | Y | Y | Y | Y |
@@ -210,7 +210,7 @@ Each of the user stores detailed in UX were tested using various browsers and sc
 
 Y - Passed
 
-1 2 3 4 - Please see **Bugs**
+1 2 3 - Please see **Bugs**
 
 
 ### Manual Site Testing
@@ -257,7 +257,7 @@ Structured testing of the site was carried out as follows:
 | Favourites Cards Source Buttons | Y | Y | Y |
 | Contact Us Layout | Y | Y | Y | 
 | Contact Us Form Input Types | Y | Y | Y | 
-| Contact Us Form Inputs Required | Y | 4 | Y | 
+| Contact Us Form Inputs Required | Y | 3 | Y | 
 | Contact Us Form Submit Button | Y | Y | Y | 
 | Footer Layout | Y | Y | Y | 
 | Footer Social Links Hover | Y | Y | Y | 
@@ -268,7 +268,7 @@ Structured testing of the site was carried out as follows:
 
 Y - Passed
 
-1 2 3 4 - Please see **Bugs**
+1 2 3 - Please see **Bugs**
 
 
 ### Bugs
@@ -277,9 +277,11 @@ Y - Passed
 
 2. **Internet Explorer** When initially tested on Explorer, kitchen cards had additional heights and favourites cards were out of position. Although amending Bootstrap col classes in favourites cards from “col” to “col-12” fixed the position problem, no fix has been found for the kitchen cards.
 
-3. **Background-Attachment: Fixed** Initially the hero image had both background-attachment: fixed and background-size: cover attributes set. Unfortunately, on any iOS device, the image was distorted. The site [CanIUse](https://caniuse.com/#search=background-attachment), recommended by Code Institute tutor support, confirmed the issue. The only fix available did not work on this website so the background-attachment attribute was removed from the hero image.
+3. **Contact Form – Email Field** During testing it was noted the error message on the email field is covered by the keyboard on a ipad in landscape view. No fix has been found.
 
-4. **Contact Form – Email Field** During testing it was noted the error message on the email field is covered by the keyboard on a ipad in landscape view. No fix has been found.
+4. **Background-Attachment: Fixed** Initially the hero image had both background-attachment: fixed and background-size: cover attributes set. Unfortunately, on any iOS device, the image was distorted. The site [CanIUse](https://caniuse.com/#search=background-attachment), recommended by Code Institute tutor support, confirmed the issue. The only fix available did not work on this website so the background-attachment attribute was removed from the hero image.
+
+
 
 
 ## Deployment
